@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>rpm命令管理</title>
+      <link href="/2021/04/07/Linux%E5%AD%A6%E4%B9%A0/rpm%E5%8C%85/rpm%E7%AE%A1%E7%90%86/"/>
+      <url>/2021/04/07/Linux%E5%AD%A6%E4%B9%A0/rpm%E5%8C%85/rpm%E7%AE%A1%E7%90%86/</url>
+      
+        <content type="html"><![CDATA[<h1 id="rpm命令管理"><a href="#rpm命令管理" class="headerlink" title="rpm命令管理"></a>rpm命令管理</h1><p>树形依赖<br>环形依赖<br>模块依赖:<br><a href="http://www.rpmfind.net/linux/RPM/">www.rpmfind.net </a> </p><h1 id="yun在线依赖"><a href="#yun在线依赖" class="headerlink" title="yun在线依赖"></a>yun在线依赖</h1><h1 id="RPM安装"><a href="#RPM安装" class="headerlink" title="RPM安装"></a>RPM安装</h1><p>rpm -ivh 包全名<br>选项：<br>    -i(install)<br>    -v(verbose)<br>    -h(hash)<br>    –nodeps<br>rmp -Uvh 包全名 更新<br>rmp -e 包名 卸载   </p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>vim基础</title>
+      <link href="/2021/04/07/Linux%E5%AD%A6%E4%B9%A0/vim%E5%AD%A6%E4%B9%A0/vim%E5%9F%BA%E7%A1%80/"/>
+      <url>/2021/04/07/Linux%E5%AD%A6%E4%B9%A0/vim%E5%AD%A6%E4%B9%A0/vim%E5%9F%BA%E7%A1%80/</url>
+      
+        <content type="html"><![CDATA[<h1 id="vim基础"><a href="#vim基础" class="headerlink" title="vim基础"></a>vim基础</h1><p>set nu 设置行号  </p><h2 id="插入命令"><a href="#插入命令" class="headerlink" title="插入命令"></a>插入命令</h2><table><thead><tr><th>命令</th><th>作用</th></tr></thead><tbody><tr><td>a</td><td>在光标所在字符后插入</td></tr><tr><td>A</td><td>在光标所在行尾插入</td></tr><tr><td>i</td><td>在光标所在字符前插入</td></tr><tr><td>I</td><td>在光标所在行首插</td></tr><tr><td>o</td><td>在光标下插入新行</td></tr><tr><td>O</td><td>在光标上插入新行</td></tr></tbody></table><h2 id="定位"><a href="#定位" class="headerlink" title="定位"></a>定位</h2><table><thead><tr><th>命令</th><th>作用</th></tr></thead><tbody><tr><td>: set nu</td><td>设置行号</td></tr><tr><td>$</td><td>移至行尾</td></tr><tr><td>: set nonu</td><td>取消行号</td></tr><tr><td>0</td><td>移至行首</td></tr><tr><td>gg</td><td>到第一行</td></tr><tr><td>G</td><td>到最后一行</td></tr><tr><td>nG</td><td>到第n行</td></tr><tr><td>: n</td><td>到第n行</td></tr></tbody></table><h2 id="删除命令"><a href="#删除命令" class="headerlink" title="删除命令"></a>删除命令</h2><table><thead><tr><th>命令</th><th>作用</th></tr></thead><tbody><tr><td>x</td><td>删除光标所在处字符</td></tr><tr><td>nx</td><td>删除光标所在处后n个字符</td></tr><tr><td>dd</td><td>删除光标所在行，ndd删除n行</td></tr><tr><td>dG</td><td>删除光标所在行到文件末尾内容</td></tr><tr><td>D</td><td>删除光标所在处到行尾内容</td></tr><tr><td>:nl.n2d</td><td>删除指定范围的行</td></tr></tbody></table><h2 id="复制和剪切"><a href="#复制和剪切" class="headerlink" title="复制和剪切"></a>复制和剪切</h2><table><thead><tr><th>命令</th><th>作用</th></tr></thead><tbody><tr><td>yy</td><td>复制当前行</td></tr><tr><td>nyy</td><td>复制当前行以下n行</td></tr><tr><td>dd</td><td>剪切当前行</td></tr><tr><td>ndd</td><td>剪切当前行以下n行</td></tr><tr><td>p、P</td><td>粘贴在当前光标所在行下或行上</td></tr></tbody></table><h2 id="替换和取消"><a href="#替换和取消" class="headerlink" title="替换和取消"></a>替换和取消</h2><table><thead><tr><th>命令</th><th>作用</th></tr></thead><tbody><tr><td>r</td><td>取代光标所在处字符</td></tr><tr><td>R</td><td>从光标所在处开始替换字符，按Esc结束</td></tr><tr><td>u</td><td>取消上一步操作</td></tr></tbody></table><h2 id="替换"><a href="#替换" class="headerlink" title="替换"></a>替换</h2><table><thead><tr><th>命令</th><th>作用</th></tr></thead><tbody><tr><td>string</td><td>搜索指定字符串，搜索时忽略大小写:set ic</td></tr><tr><td>n</td><td>搜索指定字符串的下一个出现位置</td></tr><tr><td>:%s/old/new/g</td><td>全文替换指定字符串 g是不询问 c询问确认</td></tr><tr><td>:nl n2s old/new/g</td><td>在一定范围内替换指定字符串</td></tr></tbody></table><h2 id="保存和退出"><a href="#保存和退出" class="headerlink" title="保存和退出"></a>保存和退出</h2><p>命令|作用<br>:w|保存修改<br>:w new filename|另存为指定文件<br>:wq|保存修改并退出<br>ZZ|快捷键，保存修改并退出<br>:q!|不保存修改退出<br>:wq!|保存修改并退出(文件所有者及root可使用)</p><h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><dl><dt>导入命令执行结果:r !命令<br>定义快捷键:map快捷键触发命令<br>范例:  : map  ^P I#&lt;ESC&gt;</dt><dd>map B Ox<br>连续行注释<br>:nl.n2s/^/#/g<br>:n1.n2s/^#/lg 删除开头的#<br>:n1 .n2s/^////g 插入//<br>替换 :ab aname bname 会将a替换成b</dd></dl><p>将常用的快捷键放在.vimrc下</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关机与重启</title>
+      <link href="/2021/04/07/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E5%85%B3%E6%9C%BA%E5%92%8C%E9%87%8D%E5%90%AF/"/>
+      <url>/2021/04/07/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E5%85%B3%E6%9C%BA%E5%92%8C%E9%87%8D%E5%90%AF/</url>
+      
+        <content type="html"><![CDATA[<h1 id="关机和重启"><a href="#关机和重启" class="headerlink" title="关机和重启"></a>关机和重启</h1><h2 id="1-shutdown"><a href="#1-shutdown" class="headerlink" title="1.shutdown"></a>1.shutdown</h2><p>[root@localhost ~]# shutdown[选项]<br>时间选项:<br>-c:取消前一个关机命令<br>-h:关机<br>-r:重启  </p><h2 id="其他关机命令"><a href="#其他关机命令" class="headerlink" title="其他关机命令"></a>其他关机命令</h2><p>halt<br>poweroff<br>init 0  </p><h2 id="其他重启命令"><a href="#其他重启命令" class="headerlink" title="其他重启命令"></a>其他重启命令</h2><p>reboot<br>init 6  </p><h1 id="系统运行级别"><a href="#系统运行级别" class="headerlink" title="系统运行级别"></a>系统运行级别</h1><p>0 关机<br>1 单用户(windows开机时 F8)<br>2  不完全用户，不含NFS(Network File Server)服务<br>3 完全多用户<br>4 未分配<br>5 图形界面<br>6 重启<br>cat /etc/inittab<br>修改系统的默认运行级别<br>id:3:initdefault:<br>runlevel<br>查看系统运行级别  </p><h1 id="logout"><a href="#logout" class="headerlink" title="logout"></a>logout</h1><p>退出登录    </p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>压缩解压命令</title>
+      <link href="/2021/04/07/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E5%8E%8B%E7%BC%A9%E8%A7%A3%E5%8E%8B%E5%91%BD%E4%BB%A4/"/>
+      <url>/2021/04/07/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E5%8E%8B%E7%BC%A9%E8%A7%A3%E5%8E%8B%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<h1 id="压缩解压命令"><a href="#压缩解压命令" class="headerlink" title="压缩解压命令"></a>压缩解压命令</h1><h2 id="gzip"><a href="#gzip" class="headerlink" title="gzip"></a>gzip</h2><p>命令英文原意:GNUzip<br>命令所在路径:/bin/gzip<br>执行权限:所有用户<br>语法: gzip[文件]<br>功能描述:压缩文件压缩后<br>文件格式:.gZ  </p><h2 id="gunzip"><a href="#gunzip" class="headerlink" title="gunzip"></a>gunzip</h2><p>命令英文原意:GNUunzip<br>命令所在路径:/bin/gunzip<br>执行权限:所有用户<br>语法: gunzip[压缩文件]<br>功能描述:解压缩.gz的压缩文件  </p><h2 id="tar"><a href="#tar" class="headerlink" title="tar"></a>tar</h2><p>命令所在路径:/bin/tar<br>执行权限:所有用户<br>语法: tar选项[-zcf][压缩后文件名][目录]<br>-c 打包<br>-v 显示详细信息<br>-f 指定文件名<br>-z 打包同时压缩<br>功能描述:打包目录<br>eg: tar <strong>-zcf</strong> ec.tar.gz ec<br>打包ec 并压缩成ec文件<br>tar -zxf etc.tar.gz //解压</p><h2 id="zip"><a href="#zip" class="headerlink" title="zip"></a>zip</h2><p>命令所在路径:/usr/bin/zip<br>执行权限:所有用户<br>语法:zip 选项[-r][压缩后文件名][文件或目录]<br>-r 压缩目录<br>功能描述:压缩文件或目录<br>压缩后文件格式:.zip<br>能保留源文件</p><h2 id="unzip"><a href="#unzip" class="headerlink" title="unzip"></a>unzip</h2><p>解压缩</p><h2 id="bzip2"><a href="#bzip2" class="headerlink" title="bzip2"></a>bzip2</h2><p>命令所在路径:/usr/bin/bzip2<br>执行权限:所有用户<br>语法: bzip2选项[-k][文件]<br><strong>-k产生压缩文件后保留原文件</strong><br>功能描述:压缩文件<br>压缩后文件格式:.bz2<br>bzip2 -k et<br>tar -cjf et.tar.bz2 et  //压缩<br>tar -xjf et.tar.bz2 //解压缩</p><h2 id="bunzip2"><a href="#bunzip2" class="headerlink" title="bunzip2"></a>bunzip2</h2><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><table><thead><tr><th>格式</th><th>.gz</th><th>.tar</th><th>.tar.gz</th><th>.zip</th><th>.bz2</th><th>.tar.bz2</th></tr></thead><tbody><tr><td>压缩</td><td>gzip</td><td>tar -cf</td><td>tar -zcf</td><td>zip -r</td><td>bzip2</td><td>tar -cjf</td></tr><tr><td>解压</td><td>gunzip(gzip -d)</td><td>-xf</td><td>-zxf</td><td>unzip</td><td>bunzip2</td><td>-xjf</td></tr></tbody></table>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>帮助命令</title>
+      <link href="/2021/04/07/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E5%B8%AE%E5%8A%A9%E5%91%BD%E4%BB%A4/"/>
+      <url>/2021/04/07/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E5%B8%AE%E5%8A%A9%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<h1 id="帮助命令"><a href="#帮助命令" class="headerlink" title="帮助命令"></a>帮助命令</h1><h2 id="man"><a href="#man" class="headerlink" title="man"></a>man</h2><p>命令英文原意: manual<br>命令所在路径:/usr/bin/man<br>执行权限:所有用户<br>语法: man[命令或配置文件]<br>功能描述:获得帮助信息范例:$ man ls<br>查看ls命令的帮助信息$ man services<br>查看配置文件services的帮助信息<br>当查看配置文件时不需要文件的绝对路径，只需添加文件的名称<br>1表示对命令的帮助 5表示对配置文件的帮助<br>man 5 passwd  </p><h2 id="whatis-amp-apropos"><a href="#whatis-amp-apropos" class="headerlink" title="whatis &amp; apropos"></a>whatis &amp; apropos</h2><p>whatis和apropos都可以查命令和配置文件。 </p><h2 id="–help"><a href="#–help" class="headerlink" title="–help"></a>–help</h2><p>eg: ls –help</p><h2 id="info"><a href="#info" class="headerlink" title="info"></a>info</h2><h2 id="help"><a href="#help" class="headerlink" title="help"></a>help</h2><p>命令所在路径:Shell<br>内置命令执行权限:所有用户<br>语法: help命令<br>功能描述:获得Shell内置命令的帮助信息<br>eg:$ help umask<br>查看umask命令的帮助信息<br><img src="/Linux%E5%AD%A6%E4%B9%A0/img/linux.jpeg" alt="linux"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>文件搜索命令</title>
+      <link href="/2021/04/07/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E6%96%87%E4%BB%B6%E6%90%9C%E7%B4%A2%E5%91%BD%E4%BB%A4/"/>
+      <url>/2021/04/07/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E6%96%87%E4%BB%B6%E6%90%9C%E7%B4%A2%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<h1 id="文件搜索-find"><a href="#文件搜索-find" class="headerlink" title="文件搜索 find"></a>文件搜索 find</h1><p>命令名称: find<br>命令所在路径:/bin/find<br>执行权限:所有用户<br>语法: find[搜索范围][匹配条件]<br>功能描述:文件搜索  </p><p>eg：<br>$find /etc -name init<br>在/etc下查找文件init<br>$find /etc -name *init*<br>?单字符匹配<br>文件中包含init<br>-iname 不区分大小写  </p><p>$find / -size +204800<br>1数据块 512字节 0.5K<br>在根目录下查找大于100MB文件<br>+n 大于 -n 小于 n 等于   </p><p>$find /home -user username<br>-group 是根据在所属组里查找  </p><p>find /etc -cmin -5 (超过5分钟加五)<br>在/etc 下查找5分钟内被修改过的属性文件和目录<br>-amin 访问时间access<br>-cmin 文件属性change ls找到的<br>-mmin 文件内容modify  </p><p>-a表示两个条件都满足<br>-o表示两个条件一个满足即可  </p><p>-type 根据文件类型查找<br>f 文件 d 目录 l 软连接 </p><p>$find /etc -name init -exec ls -l {} ;<br>在/etc下查找init文件并显示其详细信息-exec/-ok 命令 {} ; </p><p>eg：find /etc -name init* -a -type f -exec ls -lh {} ;<br>查找etc目录下的init名字开头的文件并显示详细信息  </p><p>-inum 根据i结点查找<br>ls -i<br>查看i结点<br>eg：find -inum id -exec rm {} ;</p><h1 id="其他文件搜索"><a href="#其他文件搜索" class="headerlink" title="其他文件搜索"></a>其他文件搜索</h1><h2 id="locate"><a href="#locate" class="headerlink" title="locate"></a>locate</h2><p>命令所在路径:/usr/bin/<br>locate执行权限:所有用户<br>语法: locate文件名<br>功能描述:在文件资料库中查找文件<br>-i 不区分大小写</p><h3 id="update"><a href="#update" class="headerlink" title="update"></a>update</h3><p>updatedb 更新资料库<br>tmp目录下的文件找不到，因为不在范围内</p><h2 id="which"><a href="#which" class="headerlink" title="which"></a>which</h2><p>命令所在路径:/usr/bin/which<br>执行权限:所有用户<br>语法: which命令<br>功能描述:搜索命令所在目录及别名信息<br>which ls  </p><h2 id="whereis"><a href="#whereis" class="headerlink" title="whereis"></a>whereis</h2><p>命令所在路径:/usr/bin/whereis<br>执行权限:所有用户<br>语法: whereis[命令名称]<br>功能描述:搜索命令所在目录及帮助文档路径  </p><h2 id="grep"><a href="#grep" class="headerlink" title="grep"></a>grep</h2><p>命令所在路径:/bin/grep<br>执行权限:所有用户<br>语法: grep -iv[指定字串][文件]<br>功能描述:在文件中搜寻字串匹配的行并输出<br>-i不区分大小写<br>-v排除指定字串  </p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>用户管理命令</title>
+      <link href="/2021/04/07/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86%E5%91%BD%E4%BB%A4/"/>
+      <url>/2021/04/07/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<h1 id="用户管理命令"><a href="#用户管理命令" class="headerlink" title="用户管理命令"></a>用户管理命令</h1><h2 id="useradd"><a href="#useradd" class="headerlink" title="useradd"></a>useradd</h2><p>命令所在路径:/usr/sbin/useradd<br>执行权限:root<br>语法: useradd username<br>功能描述:添加新用户<br>eg:$ useradd phantomor  </p><h3 id="useradd-命令无法使用"><a href="#useradd-命令无法使用" class="headerlink" title="useradd 命令无法使用"></a>useradd 命令无法使用</h3><p>useradd:无法锁定 /etc/passwd，请稍后再试  </p><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">ls -l /etc/passwd <span class="comment">##查看权限；权限为读写</span></span><br><span class="line">lsattr /etc/passwd <span class="comment">##若出现i---e ,执行（1）；否则（2）</span></span><br><span class="line">chattr -i /etc/passwd <span class="comment">##(1)</span></span><br><span class="line">useradd zhangsan <span class="comment">##(1)</span></span><br><span class="line">sudo useradd zhangsan<span class="comment">##(2)；当然也可以直接执行这一步</span></span><br></pre></td></tr></table></figure><h2 id="passwd"><a href="#passwd" class="headerlink" title="passwd"></a>passwd</h2><p>命令所在路径:/usr/bin/passwd<br>执行权限:所有用户<br>语法: passwd 用户名<br>功能描述:设置用户密码  </p><h2 id="命令名称-who"><a href="#命令名称-who" class="headerlink" title="命令名称: who"></a>命令名称: who</h2><p>命令所在路径:/usr/bin/who<br>执行权限:所有用户<br>语法: who<br>功能描述:查看登录用户信息  </p><h2 id="命令名称-w"><a href="#命令名称-w" class="headerlink" title="命令名称:w"></a>命令名称:w</h2><p>命令所在路径:/usr/bin/w<br>执行权限:所有用户<br>语法: w<br>功能描述:查看登录用户详细信息  </p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>文件处理命令</title>
+      <link href="/2021/04/06/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E6%96%87%E4%BB%B6%E5%A4%84%E7%90%86%E5%91%BD%E4%BB%A4/"/>
+      <url>/2021/04/06/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E6%96%87%E4%BB%B6%E5%A4%84%E7%90%86%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<p>CTRL +C 终止命令 CTRL +L 清屏  </p><h1 id="1-命令格式和目录处理命令"><a href="#1-命令格式和目录处理命令" class="headerlink" title="1.命令格式和目录处理命令"></a>1.命令格式和目录处理命令</h1><p>命令 [-选项] [参数]<br>eg: ls -la /etc<br>当有多个选项时，可以写在一起<br>简化选项与完整选项 -a等于–all  </p><h2 id="命令名称-ls"><a href="#命令名称-ls" class="headerlink" title="命令名称:ls"></a>命令名称:ls</h2><p>命令英文原意: list<br>命令所在路径:/bin/ls<br>执行权限:所有用户<br>功能描述:显示目录文件<br>语法:ls选项[-ald][文件或目录]<br>-a显示所有文件，包括隐藏文件 all<br>-l详细信息显示 long<br>-lh 人性化显示 可以将字节转化为合适大小的单位<br>-i id号<br>-d查看目录属性<br><strong>eg:</strong><br>drwxr-xr-x 2(引用系数) root（所有者：只能有一个） root（所属组：多个） 4096（单位字节） 1月   9 02:18（修改时间如果没有被修改就为创建时间） 桌面（文件名）<br>既不是所有者又不是所属组就是其他人<br>文件类型<br>-表示为一个文件<br>d开头表示一个文件目录<br>l开头为一个软链接<br>rwx           r-x        r-x<br>u所有者g所属组 o其他人<br>r读w写x执行  </p><h2 id="命令名称-mkdir"><a href="#命令名称-mkdir" class="headerlink" title="命令名称: mkdir"></a>命令名称: mkdir</h2><p>命令英文原意: make directories<br>命令所在路径:/bin/mkdir<br>执行权限:所有用户<br>语法: mkdir -p [目录名]<br>功能描述:创建新目录<br>-p 递归创建  </p><h2 id="命令名称-cd"><a href="#命令名称-cd" class="headerlink" title="命令名称: cd"></a>命令名称: cd</h2><p>命令英文原意:change directory命令所在路径: shell内置命令执行权限:所有用户<br>语法: cd[目录]<br>功能描述:切换目录<br>. 表示当前目录 ..表示上一级目录  </p><h2 id="命令名称-pwd"><a href="#命令名称-pwd" class="headerlink" title="命令名称: pwd"></a>命令名称: pwd</h2><p>命令英文原意:print working directory<br>命令所在路径:/bin/pwd<br>执行权限:所有用户语法:pwd<br>功能描述:显示当前目录  </p><h2 id="命令名称-rmdir"><a href="#命令名称-rmdir" class="headerlink" title="命令名称: rmdir"></a>命令名称: rmdir</h2><p>命令英文原意:remove empty directories<br>命令所在路径:/bin/rmdir<br>执行权限:所有用户<br>语法: rmdir[目录名]<br>功能描述 <strong>:删除空目录</strong>  </p><h2 id="命令名称-cp"><a href="#命令名称-cp" class="headerlink" title="命令名称:cp"></a>命令名称:cp</h2><p>命令英文原意:copy<br>命令所在路径:/bin/ep<br>执行权限:所有用户<br>语法:cp -rp[原文件或目录][目标目录]<br>-r 复制目录<br>-p 保留文件属性<br>功能描述:复制文件或目录  </p><h2 id="命令名称-mv"><a href="#命令名称-mv" class="headerlink" title="命令名称: mv"></a>命令名称: mv</h2><p>命令英文原意:move<br>命令所在路径:/bin/mv<br>执行权限:所有用户<br>语法: mv[原文件或目录][目标目录]<br>功能描述:剪切文件、改名  </p><h2 id="命令名称-rm"><a href="#命令名称-rm" class="headerlink" title="命令名称:rm"></a>命令名称:rm</h2><p>命令英文原意:remove命令所在路径:/bin/rm执行权限:所有用户<br>语法: rm -rf[文件或目录]<br>-r删除目录<br>-f强制执行<br>功能描述:删除文件或目录  </p><h1 id="1-2文件处理命令"><a href="#1-2文件处理命令" class="headerlink" title="1.2文件处理命令"></a>1.2文件处理命令</h1><h2 id="命令名称-touch"><a href="#命令名称-touch" class="headerlink" title="命令名称: touch"></a>命令名称: touch</h2><p>命令所在路径:/bin/touch<br>执行权限:所有用户<br>语法: touch[文件名]<br>功能描述:创建空文件<br>如果想创建带空格的文件应将文件名写入“ ”中  </p><h2 id="命令名称-cat"><a href="#命令名称-cat" class="headerlink" title="命令名称: cat"></a>命令名称: cat</h2><p>命令所在路径:/bin/cat<br>执行权限:所有用户<br>语法: cat[文件名]<br>功能描述:显示文件内容<br>-n显示行号  </p><h2 id="命令名称-tac"><a href="#命令名称-tac" class="headerlink" title="命令名称: tac"></a>命令名称: tac</h2><p>命令所在路径:/usr/bin/tac<br>执行权限:所有用户<br>语法: tac[文件名]<br>功能描述:显示文件内容（反向列示)<br><strong>注意反向显示不支持-n</strong>  </p><h2 id="命令名称-more"><a href="#命令名称-more" class="headerlink" title="命令名称: more"></a>命令名称: more</h2><p>命令所在路径:/bin/more<br>执行权限:所有用户<br>语法: more[文件名]<br>(空格)或f   翻页<br>(Enter)  换行<br>b  返回<br>q或Q 退出<br>功能描述:分页显示文件内容  </p><h2 id="命令名称-less"><a href="#命令名称-less" class="headerlink" title="命令名称: less"></a>命令名称: less</h2><p>命令所在路径:/usr/bin/less<br>执行权限:所有用户<br>语法: less [文件名]<br>功能描述:分页显示文件内容（可向上翻页)<br>可以搜索关键词 n可以切换下一个  </p><h2 id="命令名称-head"><a href="#命令名称-head" class="headerlink" title="命令名称: head"></a>命令名称: head</h2><p>命令所在路径:/usr/bin/head执行权限:所有用户<br>语法: head[文件名]<br>功能描述:显示文件前面几行<br>-n指定行数 无指定默认前10行  </p><h2 id="命令名称-tail"><a href="#命令名称-tail" class="headerlink" title="命令名称: tail"></a>命令名称: tail</h2><p>命令所在路径:/usr/bin/tail<br>执行权限:所有用户<br>语法: tail[文件名]<br>功能描述:显示文件后面几行<br>-n指定行数<br>-f动态显示文件末尾内容  </p><h2 id="命令名称-ln"><a href="#命令名称-ln" class="headerlink" title="命令名称: ln"></a>命令名称: ln</h2><p>命令英文原意:link<br>命令所在路径:/bin/ln<br>执行权限:所有用户<br>语法: ln -s[原文件][目标文件]<br>-s创建软链接<br>功能描述:生成链接文件<br>软连接类似Windows的快捷方式<br><strong>软连接</strong> lrwxrwxrwx<br>新生成的文件 -&gt;源文件<br>箭头指向源文件<br><strong>硬链接</strong><br>1.属性一致 可与源文件同步更新 并且源文件删除无影响<br>2.通过i节点识别（硬链接id与源文件一致）<br>3.不能跨分区<br>4.不能针对目录使用  </p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>权限管理命令</title>
+      <link href="/2021/04/06/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86%E5%91%BD%E4%BB%A4/"/>
+      <url>/2021/04/06/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<h1 id="权限命令chmod"><a href="#权限命令chmod" class="headerlink" title="权限命令chmod"></a>权限命令chmod</h1><p>命令名称：chmod<br>英文：change the permissions mode of a file<br>命令所在路径：/bin/chmod<br>执行权限:所有用户<br>语法：chmod [{ugoa} {+-=} {rwx}][文件或目录]<br>            [mode=421][文件或目录]<br>            -R 递归修改 当操作目录时会将目录下的所有文件都改为一个修改值<br>功能描述：改变文件或目录权限<br>所有者u 所属组g 其他人o 所有人a<br>+增加权限 -减少权限 =修改权限<br>权限数字表示<br>r — 4<br>w — 2<br>x — 1<br>rwxrw-r– 764<br><img src="../photo/linuxp/1.png" alt="Alt text" title="chmod权限修改"></p><p>当在777文件夹下存在一个644文件夹普通用户可以删除644文件夹  </p><p>文件<br>    r：cat/more/head/tail/less  查看内容<br>    w:vim 修改文件内容<br>    x:script command 可执行文件  </p><p>文件目录权限<br>| r                    | w                        | x            |<br>| ——————– | ———————— | ———— |<br>| 读权限               | 写权限                   | 执行权限     |<br>| 看文件内容           | 修改文件内容             | 执行文件内容 |<br>| 列出文件目录中的内容 | 创建删除文件或里面的目录 | 可以进入目录 |<br>| ls                   | touch/mkdir/rmidr/rm     | cd           |</p><p>更改权限：root和所属者  </p><h1 id="其他权限管理命令"><a href="#其他权限管理命令" class="headerlink" title="其他权限管理命令"></a>其他权限管理命令</h1><h2 id="权限管理命令：chown"><a href="#权限管理命令：chown" class="headerlink" title="权限管理命令：chown"></a>权限管理命令：chown</h2><p>命令英文原意: change file ownership<br>命令所在路径:/bin/chown<br>执行权限:所有用户<br>语法: chown[用户][文件或目录]<br>功能描述:改变文件或目录的所有者<br>useradd 添加用户  </p><h2 id="命令名称-chgrp"><a href="#命令名称-chgrp" class="headerlink" title="命令名称: chgrp"></a>命令名称: chgrp</h2><p>命令英文原意: change file group ownership<br>命令所在路径:/bin/chgrp<br>执行权限:所有用户<br>语法: chgrp[用户组][文件或目录]<br>功能描述:改变文件或目录的所属组<br>groupadd 添加组<br>缺省组就是默认组的意思  </p><h2 id="命令名称-umask"><a href="#命令名称-umask" class="headerlink" title="命令名称: umask"></a>命令名称: umask</h2><p>命令英文原意:the user file-creation mask<br>命令所在路径:Shell内置命令<br>执行权限:所有用户<br>语法: umask[-S]<br>-S以rwx形式显示新建文件缺省权限<br>功能描述:显示、设置文件的缺省权限<br>新创建的文件（touch）是没有可执行权限的（x）</p><p>umask 022<br>即为默认755<br>当mask的值是022—-w–w-<br>他的本来的权限与777是逻辑与的关系755目录，文件没有可执行权限即644</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>网络命令</title>
+      <link href="/2021/04/06/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E7%BD%91%E7%BB%9C%E5%91%BD%E4%BB%A4/"/>
+      <url>/2021/04/06/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E7%BD%91%E7%BB%9C%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<h1 id="网络命令"><a href="#网络命令" class="headerlink" title="网络命令"></a>网络命令</h1><h2 id="write"><a href="#write" class="headerlink" title="write"></a>write</h2><p>指令所在路径: /usr/bin/write<br>执行权限:所有用户<br>语法: write&lt;用户名&gt;<br>功能描述:给用户发信息，以Ctrl+D保存结束  </p><h2 id="wall"><a href="#wall" class="headerlink" title="wall"></a>wall</h2><p>命令英文原意:write all<br>指令所在路径:/usr/bin/wall<br>执行权限:所有用户<br>语法: wall [message]<br>功能描述:发广播信息  </p><h2 id="ping"><a href="#ping" class="headerlink" title="ping"></a>ping</h2><p>命令所在路径:/bin/ping<br>执行权限:所有用户<br>语法: ping选项IP地址<br>-c指定发送次数<br>功能描述:测试网络连通性   </p><h2 id="ifconfig"><a href="#ifconfig" class="headerlink" title="ifconfig"></a>ifconfig</h2><p>命令英文原意: interface configure<br>命令所在路径:/sbin/ifconfig<br>执行权限: root<br>语法: ifconfig网卡名称IP地址<br>功能描述:查看和设置网卡信息  </p><h2 id="mail"><a href="#mail" class="headerlink" title="mail"></a>mail</h2><p>命令所在路径:/bin/mail<br>执行权限:所有用户语法: mail [用户名]<br>功能描述:查看发送电子邮件  </p><h2 id="last"><a href="#last" class="headerlink" title="last"></a>last</h2><p>命令所在路径:/usr/bin/last<br>执行权限:所有用户<br>语法: last<br>功能描述:列出目前与过去登入系统的用户信息  </p><h2 id="lastlog"><a href="#lastlog" class="headerlink" title="lastlog"></a>lastlog</h2><p>命令所在路径:/usr/bin/lastlog<br>执行权限:所有用户<br>语法: lastlog<br>功能描述:检查某特定用户上次登录的时间<br>-u 加id只查看该用户   </p><h2 id="traceroute"><a href="#traceroute" class="headerlink" title="traceroute"></a>traceroute</h2><p>命令所在路径:/bin/traceroute<br>执行权限:所有用户<br>语法: traceroute<br>功能描述:显示数据包到主机间的路径<br>traceroute <a href="http://www.baidu.com/">www.baidu.com</a>  </p><h2 id="netstat"><a href="#netstat" class="headerlink" title="netstat"></a>netstat</h2><p>命令所在路径:/bin/netstat<br>执行权限:所有用户<br>语法: netstat[选项]<br>功能描述:显示网络相关信息<br>-t tcp协议<br>-u UDP协议<br>-l 监听<br>-r 路由<br>-n 显示ip地址和端口号<br>服务发起端口是随机的，只有接收端口是固定的<br>netstat -tlun<br>查看本机监听的端口<br>netstat -an<br>查看本机所有的网络连接<br>#netstat -rn<br>查看本机路由表  </p><h2 id="setup-redhat"><a href="#setup-redhat" class="headerlink" title="setup (redhat)"></a>setup (redhat)</h2><p>命令所在路径:/usr/bin/setup<br>执行权限:root<br>语法: setup<br>功能描述:配置网络  </p><h2 id="mount"><a href="#mount" class="headerlink" title="mount"></a>mount</h2><p>命令位置:/bin/mount<br>执行权限:所有用户<br>命令语法: mount [-t文件系统]设备文件名挂载点<br>范例:# mount -t iso9660 /dev/sr0 /mnt/cdrom  </p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>计网初次学习</title>
+      <link href="/2021/03/23/%E8%AE%A1%E7%BD%91/%E8%AE%A1%E7%BD%91%E5%AE%9A%E4%B9%89/"/>
+      <url>/2021/03/23/%E8%AE%A1%E7%BD%91/%E8%AE%A1%E7%BD%91%E5%AE%9A%E4%B9%89/</url>
+      
+        <content type="html"><![CDATA[<h1 id="计网定义"><a href="#计网定义" class="headerlink" title="计网定义"></a>计网定义</h1><p>连通性和共享  </p><h2 id="计网分类"><a href="#计网分类" class="headerlink" title="计网分类"></a>计网分类</h2><h3 id="1-计网范围"><a href="#1-计网范围" class="headerlink" title="1.计网范围"></a>1.计网范围</h3><p>广域网WAN<br>城域网MAN<br>局域网LAN  </p><h3 id="2-使用者分类"><a href="#2-使用者分类" class="headerlink" title="2.使用者分类"></a>2.使用者分类</h3><p>公用网和专用网</p><h3 id="3-接入网"><a href="#3-接入网" class="headerlink" title="3.接入网"></a>3.接入网</h3><p>AN  </p><h2 id="计网性能"><a href="#计网性能" class="headerlink" title="计网性能"></a>计网性能</h2><p>1.速率 bit/s 实际值<br>2.带宽 bandwidth 频带宽度 最高速度<br>3.吞吐量 单位时间内通过的网络 吞吐量受带宽的限制<br>4.时延 delay<br>发送时延 传播时延 处理时延 排队时延<br>5.时延带宽积<br>6.往返时间 RTT<br>7.利用率  D=D0/1-U  </p><h2 id="计算机网络体系结构"><a href="#计算机网络体系结构" class="headerlink" title="计算机网络体系结构"></a>计算机网络体系结构</h2><p>协议<br>为网络中数据的交换而建立的规则</p><p><strong>各层级功能</strong>  </p><ol><li>差错控制    </li><li>流量控制    </li><li>分段和重装  </li><li>复用和分用</li><li>连接的建立与释放    </li></ol><p>五层协议体系结构</p><ul><li>应用层 application layer</li><li>运输层 transport layer</li><li>网络层 network layer</li><li>数据链路层 data link layer</li><li>物理层 physical layer</li></ul><p>协议是水平的 服务是垂直的 </p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> network </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>计网学习-应用层</title>
+      <link href="/2021/03/23/%E8%AE%A1%E7%BD%91/%E5%BA%94%E7%94%A8%E5%B1%82/"/>
+      <url>/2021/03/23/%E8%AE%A1%E7%BD%91/%E5%BA%94%E7%94%A8%E5%B1%82/</url>
+      
+        <content type="html"><![CDATA[<p>在Web应用程序中，有两个互相通信的不同的程序：一个是运行在用户主机上的浏览器程序；另一个是运行在Web服务器主机上的Web服务器程序</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> network </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>计网学习-物理层</title>
+      <link href="/2021/03/23/%E8%AE%A1%E7%BD%91/%E7%89%A9%E7%90%86%E5%B1%82/"/>
+      <url>/2021/03/23/%E8%AE%A1%E7%BD%91/%E7%89%A9%E7%90%86%E5%B1%82/</url>
+      
+        <content type="html"><![CDATA[<h1 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h1><p>机械特性：接口所用的形状和尺寸<br>电气特性：接口电缆各个显示出现的电压范围<br>功能特性：电压代表的含义<br>过程特性：出现事件的顺序   </p><h1 id="数据通信"><a href="#数据通信" class="headerlink" title="数据通信"></a>数据通信</h1><p>通信系统的三大部分：源系统(发送端)、传输系统(传输网络)，目的系统(接收端，接收方)。<br>数据（data）——运送信息的实体<br>信号（signal）——数据的电气的或电磁的表现<br>模拟信号(analogous signal)——代表消息的参数是连续的<br>数字信号(digital signal)——代表消息的参数的取值是类散的<br>信道<br>码元（code）-使用时间域的波形表示数字信号，代表不同的波形。<br>单向通信：只能有一个方向的同学而不能有反方向的交互。<br>双向交替通信<br>双向同时通信    </p><p>基带信号是(基本频带信号)最原始的1和0<br>基带信号中往往包含低频或直流部分，许多信道不能传输这种，因此必须对基带信号进行调制（modulation）</p><p>调制分为基带调制和带通调制<br>基带调制:仅对基带信号的波形进行变换,使它能够与信道特性相适应。变换后的信号仍然是基带信号。把这种过程称为编码(coding)。<br>带通调制:使用载波(carrier)进行调制，把基带信号的频率范围搬移到较高的频段，并转换为模拟信号，这样就能够更好地在模拟信道中传输（即仅在一段频率范围内能够通过信道)。<br><strong>带通信号</strong> :经过载波调制后的信号。  </p><h2 id="基带调制"><a href="#基带调制" class="headerlink" title="基带调制"></a>基带调制</h2><p>编码方式<br>比特流：<br>不归零制<br>归零制<br>曼切斯特<br>差分曼切斯特</p><h2 id="带通调制"><a href="#带通调制" class="headerlink" title="带通调制"></a>带通调制</h2><p>调幅AM 调频FM 调相PM   </p><h1 id="传输媒体"><a href="#传输媒体" class="headerlink" title="传输媒体"></a>传输媒体</h1><p>双绞线 CAT<br>同轴电缆（不太使用了）<br>光纤<br>多模光纤：可反射多个光<br>单模光纤：不太损耗能量   </p><h1 id="信号复用"><a href="#信号复用" class="headerlink" title="信号复用"></a>信号复用</h1><h1 id="数据传输"><a href="#数据传输" class="headerlink" title="*数据传输"></a>*数据传输</h1><h1 id="宽带接入技术"><a href="#宽带接入技术" class="headerlink" title="*宽带接入技术"></a>*宽带接入技术</h1>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> network </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>配置butterfly主题博客</title>
+      <link href="/2021/01/02/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2021/01/02/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</url>
+      
+        <content type="html"><![CDATA[<h1 id=""><a href="#" class="headerlink" title=""></a></h1><p>i am blog.</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> a=<span class="number">1</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d&quot;</span>,a);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> //文章分类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> //标签 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
