@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>测试</title>
+      <link href="/2021/07/16/ceshi/"/>
+      <url>/2021/07/16/ceshi/</url>
+      
+        <content type="html"><![CDATA[<div class="note default flat"><p>default 提示标签符</p></div><div class="note primary no-icon flat"><p>primary 提示标签符</p></div><div class="note success flat"><p>success 提示标签符</p></div><div class="note info flat"><p>info 提示标签符</p></div><div class="note warning flat"><p>warning 提示标签符</p></div><div class="note danger flat"><p>danger 提示标签符</p></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>nmap的使用技巧&lt;1&gt;</title>
       <link href="/2021/07/15/Linux%E5%AD%A6%E4%B9%A0/nmap%E7%9A%84%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/"/>
       <url>/2021/07/15/Linux%E5%AD%A6%E4%B9%A0/nmap%E7%9A%84%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</url>
