@@ -144,3 +144,6 @@ window.addEventListener('load', () => {
       })
   }
 })
+
+var path = "/search.xml";
+searchFunc(path, 'local-search-input', 'local-search-result');
