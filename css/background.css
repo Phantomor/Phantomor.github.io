@@ -1,6 +1,6 @@
 #web_bg {
   /* 背景图像的地址（url括号里）  */
-  background: url("https://s1.imagehub.cc/images/2021/06/13/moonad4b74b1541895a6.png");
+  background: url("https://raw.githubusercontent.com/Phantomor/images/main/img/moon.png");
 }
 .layout > div:first-child:not(.recent-posts) {
   /* 以下代表白色透明度为0.3 */
