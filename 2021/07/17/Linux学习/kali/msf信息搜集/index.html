@@ -7,7 +7,7 @@
 <meta property="og:locale">
 <meta property="og:image" content="https://phantomor-1306555031.cos.ap-nanjing.myqcloud.com/linux/kali/msf/msfcoin.jpg">
 <meta property="article:published_time" content="2021-07-16T16:00:00.000Z">
-<meta property="article:modified_time" content="2021-07-17T14:58:01.833Z">
+<meta property="article:modified_time" content="2021-07-18T03:35:30.607Z">
 <meta property="article:author" content="Phantomor">
 <meta property="article:tag" content="kali，msf">
 <meta name="twitter:card" content="summary">
@@ -58,7 +58,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: true,
-  postUpdate: '2021-07-17 22:58:01'
+  postUpdate: '2021-07-18 11:35:30'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -141,7 +141,7 @@
         }
       }
     })(window)</script><script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
-<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet"><meta name="generator" content="Hexo 5.4.0"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="https://raw.githubusercontent.com/Phantomor/images/main/img/boy.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">44</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">Tags</div><div class="length-num">19</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">Categories</div><div class="length-num">3</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://phantomor-1306555031.cos.ap-nanjing.myqcloud.com/linux/kali/msf/msfcoin.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Phantomor</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> Search</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">利用Metasploit信息搜集</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2021-07-16T16:00:00.000Z" title="Created 2021-07-17 00:00:00">2021-07-17</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2021-07-17T14:58:01.833Z" title="Updated 2021-07-17 22:58:01">2021-07-17</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/kali/">kali</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">Word count:</span><span class="word-count">2k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">Reading time:</span><span>8min</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="利用Metasploit信息搜集"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post View:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="信息搜集"><a href="#信息搜集" class="headerlink" title="信息搜集"></a>信息搜集</h1><p>发现目标网段的存活主机:</p>
+<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet"><meta name="generator" content="Hexo 5.4.0"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="https://raw.githubusercontent.com/Phantomor/images/main/img/boy.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">44</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">Tags</div><div class="length-num">19</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">Categories</div><div class="length-num">3</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://phantomor-1306555031.cos.ap-nanjing.myqcloud.com/linux/kali/msf/msfcoin.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Phantomor</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> Search</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">利用Metasploit信息搜集</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2021-07-16T16:00:00.000Z" title="Created 2021-07-17 00:00:00">2021-07-17</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2021-07-18T03:35:30.607Z" title="Updated 2021-07-18 11:35:30">2021-07-18</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/kali/">kali</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">Word count:</span><span class="word-count">2k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">Reading time:</span><span>8min</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="利用Metasploit信息搜集"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post View:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="信息搜集"><a href="#信息搜集" class="headerlink" title="信息搜集"></a>信息搜集</h1><p>发现目标网段的存活主机:</p>
 <p>我们可以利用auxiliary这个模块来获取目标网端的信息，包括端口开放情况、主机存活情况。</p>
 <blockquote>
 <p>auxiliary/scanner/discovery/arp_sweep</p>
@@ -173,10 +173,10 @@
 <p>配置线程数</p>
 <p>set THREADS 30</p>
 <p>run</p>
-<p><img src="https://phantomor-1306555031.cos.ap-nanjing.myqcloud.com/linux/kali/msf/msfarp1.png" alt="结果"></p>
+<p><img src="https://raw.githubusercontent.com/Phantomor/images/main/img/kali/msf/msf1.png" alt="结果"></p>
 <h2 id="使用半连接方式扫描TCP"><a href="#使用半连接方式扫描TCP" class="headerlink" title="使用半连接方式扫描TCP"></a>使用半连接方式扫描TCP</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">msf6 &gt; search portscan</span><br><span class="line">msf6 &gt; use auxiliary/scanner/portscan/syn</span><br><span class="line">msf6 auxiliary(scanner/portscan/syn) &gt; set PORTS 80</span><br><span class="line">msf6 auxiliary(scanner/portscan/syn) &gt; set RHOSTS 192.168.3.1/24</span><br><span class="line">msf6 auxiliary(scanner/portscan/syn) &gt; set THREADS 20</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://phantomor-1306555031.cos.ap-nanjing.myqcloud.com/linux/kali/msf/msfarp2.png" alt="配置选项"></p>
+<p><img src="https://raw.githubusercontent.com/Phantomor/images/main/img/kali/msf/msf2.png" alt="配置选项"></p>
 <p>扫描结果</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">msf6 auxiliary(scanner/portscan/syn) &gt; run</span><br><span class="line">[+]  TCP OPEN 192.168.3.1:80</span><br><span class="line">[*] Scanned 1 of 1 hosts (100% complete)</span><br><span class="line">[*] Auxiliary module execution completed</span><br></pre></td></tr></table></figure>
 
@@ -186,14 +186,14 @@
 <p>扩展：Dsniff 是一个著名的网络嗅探工具包、高级口令嗅探工具、综合性的网络嗅探工具包。</p>
 <p>msf6 &gt; use auxiliary/sniffer/psnuffle</p>
 <p>run</p>
-<p><img src="https://phantomor-1306555031.cos.ap-nanjing.myqcloud.com/linux/kali/msf/msf3.png" alt="结果"></p>
+<p><img src="https://raw.githubusercontent.com/Phantomor/images/main/img/kali/msf/msf3.png" alt="结果"></p>
 <p>shift + ctrl + t 建立新终端 登录ftp</p>
 <p>安装ftp apt install lftp -y</p>
 <p>lftp -u msfadmin 192.168.3.27 # 27为metasploitable2-Linux靶机的ip</p>
 <p>密码 msfadmin</p>
 <p>ls</p>
 <p>回到msf发现信息已经拿到</p>
-<p><img src="https://phantomor-1306555031.cos.ap-nanjing.myqcloud.com/linux/kali/msf/msf4.png" alt="结果"></p>
+<p><img src="https://raw.githubusercontent.com/Phantomor/images/main/img/kali/msf/msf4.png" alt="结果"></p>
 <p>关闭后台</p>
 <p>jobs</p>
 <p>kill 0</p>
@@ -215,22 +215,22 @@
 <h3 id="使用-snmp-enum-模块通过-snmp-协议扫描目标服务器信息"><a href="#使用-snmp-enum-模块通过-snmp-协议扫描目标服务器信息" class="headerlink" title="使用 snmp_enum 模块通过 snmp 协议扫描目标服务器信息"></a>使用 snmp_enum 模块通过 snmp 协议扫描目标服务器信息</h3><blockquote>
 <p>msf6 &gt;use auxiliary/scanner/snmp/snmp_enum<br>msf6 &gt; auxiliary(scanner/snmp/snmp_enum) &gt; show options<br>msf6 &gt;auxiliary(scanner/snmp/snmp_enum) &gt; set RHOSTS 192.168.3.27<br>msf6 &gt;auxiliary(scanner/snmp/snmp_enum) &gt; run</p>
 </blockquote>
-<p><img src="https://phantomor-1306555031.cos.ap-nanjing.myqcloud.com/linux/kali/msf/msf5.png" alt="结果"></p>
+<p><img src="https://raw.githubusercontent.com/Phantomor/images/main/img/kali/msf/msf5.png" alt="结果"></p>
 <p>可以看到snmp探测到东西很多，但服务器硬件和运行的进程信息是其他扫描方式，该协议获取不到的</p>
 <h1 id="基于SMB协议收集信息"><a href="#基于SMB协议收集信息" class="headerlink" title="基于SMB协议收集信息"></a>基于SMB协议收集信息</h1><p><strong>服务器消息块</strong>（Server Message Block，缩写为SMB），又称<strong>网络文件共享系统</strong>（Common Internet File System，缩写为CIFS），一种应用层网络传输协议，由微软开发，主要功能是使网络上的机器能够共享计算机文件，打印机，串行端口和通讯等资源。它也提供经认证的进程间通信机能。它主要用在装有Microsoft Windows的机器上，在这样的机器上被称为Microsoft Windows Network。</p>
 <p>经过Unix 服务器厂商重新开发后，它可以用于连接 Unix 服务器和 Windows 客户机，执行打印和文件共享等任务。</p>
 <h2 id="使用-smb-enumshares-基于-SMB-协议扫共享文件（账号、密码）"><a href="#使用-smb-enumshares-基于-SMB-协议扫共享文件（账号、密码）" class="headerlink" title="使用 smb_enumshares 基于 SMB 协议扫共享文件（账号、密码）"></a>使用 smb_enumshares 基于 SMB 协议扫共享文件（账号、密码）</h2><p>SMB 的模块中基本上都是可以配置用户名和密码的，配置了用户名和密码某些模块扫描的结果会更满足我们的需求 。</p>
 <p>新建文件夹设置共享</p>
-<p><img src="https://phantomor-1306555031.cos.ap-nanjing.myqcloud.com/linux/kali/msf/msf7.png" alt="共享信息"></p>
+<p><img src="https://raw.githubusercontent.com/Phantomor/images/main/img/kali/msf/msf7.png" alt="共享信息"></p>
 <p>添加admin信息获取密码(这是我设置的密码是123456)</p>
 <p><code>msf6 &gt; use auxiliary/scanner/smb/smb_enumshares</code></p>
 <p><code>msf6 auxiliary(scanner/smb/smb_enumshares) &gt; set RHOSTS 192.168.3.28</code><br>RHOSTS =&gt; 192.168.3.28<br><code>msf6 auxiliary(scanner/smb/smb_enumshares) &gt; set SMBUSER admin</code><br>SMBUSER =&gt; admin<br><code>msf6 auxiliary(scanner/smb/smb_enumshares) &gt; set SMBPASS 123456</code><br>SMBPASS =&gt; 123456</p>
-<p><img src="https://phantomor-1306555031.cos.ap-nanjing.myqcloud.com/linux/kali/msf/msf6.png" alt="run"></p>
+<p><img src="https://raw.githubusercontent.com/Phantomor/images/main/img/kali/msf/msf6.png" alt="run"></p>
 <p>共享文件目录除了SMB还有 4 个是隐藏的共享目录。</p>
 <h2 id="使用-smb-lookupsid-扫描系统用户信息-SID枚举"><a href="#使用-smb-lookupsid-扫描系统用户信息-SID枚举" class="headerlink" title="使用 smb_lookupsid 扫描系统用户信息(SID枚举)"></a>使用 smb_lookupsid 扫描系统用户信息(SID枚举)</h2><p>新建一个用户phantom 123456</p>
 <p>SID 是 Windows 中每一个用户的ID，更改用户名SID也是不会改变的。</p>
 <p>msf6 &gt; use auxiliary/scanner/smb/smb_lookupsid<br>msf6 auxiliary(scanner/smb/smb_lookupsid) &gt; set RHOSTS 192.168.3.33 #win7的地址<br>RHOSTS =&gt; 192.168.3.33<br>msf6 auxiliary(scanner/smb/smb_lookupsid) &gt; set SMBUSER admin<br>SMBUSER =&gt; admin<br>msf6 auxiliary(scanner/smb/smb_lookupsid) &gt; set SMBPASS 123456<br>SMBPASS =&gt; 123456<br>msf6 auxiliary(scanner/smb/smb_lookupsid) &gt; run</p>
-<p><img src="https://phantomor-1306555031.cos.ap-nanjing.myqcloud.com/linux/kali/msf/msf8.png" alt="run"></p>
+<p><img src="https://raw.githubusercontent.com/Phantomor/images/main/img/kali/msf/msf8.png" alt="run"></p>
 <h2 id="使用-smb-version-基于-SMB-协议扫描版本号"><a href="#使用-smb-version-基于-SMB-协议扫描版本号" class="headerlink" title="使用 smb_version 基于 SMB 协议扫描版本号"></a>使用 smb_version 基于 SMB 协议扫描版本号</h2><p>use auxiliary/scanner/smb/smb_version设置</p>
 <p>set RHOSTS 192.168.3.28, 192.168.3.23</p>
 <p>run</p>
@@ -239,7 +239,7 @@
 <p>msf6 &gt; use auxiliary/scanner/ssh/ssh_version</p>
 <p>msf6 auxiliary(scanner/ssh/ssh_version) &gt; set RHOSTS 192.168.3.27<br>RHOSTS =&gt; 192.168.3.27<br>msf6 auxiliary(scanner/ssh/ssh_version) &gt; set USERPASS_FiLE /usr/share/metasploit-framework/data/wordlists/root_userpass.txt<br>USERPASS_FiLE =&gt; /usr/share/metasploit-framework/data/wordlists/root_userpass.txt</p>
 <p>run</p>
-<p><img src="https://phantomor-1306555031.cos.ap-nanjing.myqcloud.com/linux/kali/msf/msf9.png" alt="run"></p>
+<p><img src="https://raw.githubusercontent.com/Phantomor/images/main/img/kali/msf/msf9.png" alt="run"></p>
 <h1 id="基于FTP协议收集信息"><a href="#基于FTP协议收集信息" class="headerlink" title="基于FTP协议收集信息"></a>基于FTP协议收集信息</h1><h2 id="查看-ftp-服务的版本信息"><a href="#查看-ftp-服务的版本信息" class="headerlink" title="查看 ftp 服务的版本信息"></a>查看 ftp 服务的版本信息</h2><p>msf6 &gt; use auxiliary/scanner/ftp/ftp_version<br>msf6 auxiliary(scanner/ftp/ftp_version) &gt; set RHOSTS 192.168.3.27<br>RHOSTS =&gt; 192.168.3.27<br>msf6 auxiliary(scanner/ftp/ftp_version) &gt; run</p>
 <p>[+] 192.168.3.27:21       - FTP Banner: ‘220 (vsFTPd 2.3.4)\x0d\x0a’<br>[*] 192.168.3.27:21       - Scanned 1 of 1 hosts (100% complete)<br>[*] Auxiliary module execution completed</p>
 <p>可以看到FTP版本为2.3.4</p>
