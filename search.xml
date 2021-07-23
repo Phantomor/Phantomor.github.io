@@ -4,6 +4,56 @@
   
     
     <entry>
+      <title>拓展互联网</title>
+      <link href="/2021/07/23/%E8%AE%A1%E7%BD%91/%E6%8B%93%E5%B1%95%E4%BA%92%E8%81%94%E7%BD%91/"/>
+      <url>/2021/07/23/%E8%AE%A1%E7%BD%91/%E6%8B%93%E5%B1%95%E4%BA%92%E8%81%94%E7%BD%91/</url>
+      
+        <content type="html"><![CDATA[<h1 id="在物理层拓展以太网"><a href="#在物理层拓展以太网" class="headerlink" title="在物理层拓展以太网"></a>在物理层拓展以太网</h1><h2 id="使用光纤扩展"><a href="#使用光纤扩展" class="headerlink" title="使用光纤扩展"></a>使用光纤扩展</h2><p>主机使用光纤(通常是一对光纤)和一对光纤调制<br>解调器连接到集线器。<br>很容易使主机和几公里以外的集线器相连接。</p><h2 id="使用集线器扩展"><a href="#使用集线器扩展" class="headerlink" title="使用集线器扩展"></a>使用集线器扩展</h2><p>使用多个集线器可连成更大的、多级星形结构的以<br>太网。<br>例如,一个学院的三个系各有一个10 BASE-T以太<br>网,可通过一个主干集线器把各系的以太网连接起<br>来,成为一个更大的以太网。</p><p>级联</p><p>优点</p><ul><li><p>使原来属于不同碰撞域的以太网上的计算机能够进<br>行跨碰撞域的通信。</p></li><li><p>扩大了以太网覆盖的地理范围。</p></li></ul><p>缺点</p><ul><li>碰撞域增大了,但总的吞吐量并未提高。</li><li>如果不同的碰撞域使用不同的数据率,那么就不能<br>用集线器将它们互连起来。</li></ul><h2 id="在数据链路层拓展"><a href="#在数据链路层拓展" class="headerlink" title="在数据链路层拓展"></a>在数据链路层拓展</h2><p>扩展以太网更常用的方法是在数据链路层进行。<br>早期使用<strong>网桥</strong>,现在使用<strong>以太网交换机</strong>。</p><p>网桥工作在数据链路层。<br>它根据MAc帧的目的地址对收到的帧进行转发和过滤。<br>当网桥收到一个帧时,并不是向所有的接口转发此帧,而是<br>先检查此帧的目的MAC地址,然后再确定将该帧转发到哪<br>个接口,或把它丢弃。</p><p>1990年问世的交换式集线器( switching hub)可明显地提高以太网的性能。<br>交换式集线器常称为以太网交换机 (switch)或第二层交换机(L2 switch),强调这种交换机工作在数据链路层 </p><p>以太网交换机实质上就是一个多接口的网桥。通常都有十几个或更多的接口。<br>每个接口都直接与一个单台主机或另一个以太网交换机相连,并且一般都工作在全双工方式。<br>以太网交换机具有并行性。能同时连通多对接口,使多对主机能同时通信。<br>相互通信的主机都是独占传输媒体,无碰撞地传输数据。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> network </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> network </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>计网学习-数据链路层</title>
+      <link href="/2021/07/23/%E8%AE%A1%E7%BD%91/%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82/"/>
+      <url>/2021/07/23/%E8%AE%A1%E7%BD%91/%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82/</url>
+      
+        <content type="html"><![CDATA[<h1 id="数据链路层"><a href="#数据链路层" class="headerlink" title="数据链路层"></a>数据链路层</h1><p>数据链路层使用的信道主要有两种类型：<br>点对点信道<br>广播信道：一对多<br>链路是一条无缘的点到点的物理线路段，中间没有任何其他的交换结点<br>数据链路(data link)除了物理线路外,还必须有通信协议来控制这些数据的传输。若把实现这些协议件和软件加到链路上，就构成了数据链路。<br>现在最常用的方法是使用适配器（即网卡）来实现这些协议的硬件和软件。<br>一般的适配器都包括了数据链路层和物理层这两层（网络接口层）的功能。<br>链路分为物理链路和逻辑链路<br>物理链路就是链路。逻辑链路就是物理链路加上通信协议</p><p><strong>数据链路层传送的是帧</strong></p><h2 id="封装成帧-framing"><a href="#封装成帧-framing" class="headerlink" title="封装成帧 framing"></a>封装成帧 framing</h2><p>首部和尾部就是进行帧定界<br><img src="https://img-blog.csdnimg.cn/20210401223548621.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzUxOTExNDMy,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p><h2 id="透明传输"><a href="#透明传输" class="headerlink" title="透明传输"></a><strong>透明传输</strong></h2><p>用帧的定界符<br>SOH表示开始，EOT表示结束<br>但在数据内部出现EOT则会把数据出错<br>解决方法：字节填充或字符填充<br>ESC 即转义字符</p><h2 id="差错控制"><a href="#差错控制" class="headerlink" title="差错控制"></a><strong>差错控制</strong></h2><p>在一段时间内，传输错误的比特占所传输比特总数的比率称为误码率BER (Bit Error Rate)。<br>循环冗余检验CRC<br>冗余码计算<br>用二进制的模⒉运算进行2^n^乘M的运算，这相当于在M后面添加n个0。<br>得到的(k+n)位的数除以事先选定好的长度为(n +1)位的除数P得出商是Q而余数是R,余数R比除数Р少1位，即R是n位。<br>FCS<br>无比特差错和无传输差错不同<br>可靠传输： 不重复，不丢失，不失序 CRC做不到</p><h2 id="PPP协议"><a href="#PPP协议" class="headerlink" title="PPP协议"></a>PPP协议</h2><p> 满足的功能</p><ul><li>简单</li><li>封装成帧</li><li>透明性</li><li>多种网络层协议</li><li>多种类型链路</li><li>差错检测</li><li>检测连接状态</li><li>最大传送单元</li><li>网络层地址协商</li><li>数据压缩协商</li></ul><p>不需要的功能</p><ul><li>纠错 </li><li>流量控制</li><li> 序号</li><li> 多点线路 </li><li>半双工或单工链路</li></ul><p>ppp协议由三个组成部分：</p><ol><li>一个将ip数据报封装到串行链路的方法</li><li>链路控制协议 LCP（link Control Protocal）</li><li>网络控制协议 NCP （Network Control Protocal）</li></ol><h2 id="PPP协议的帧格式"><a href="#PPP协议的帧格式" class="headerlink" title="PPP协议的帧格式"></a>PPP协议的帧格式</h2><p>首部和尾部分别为四个字段和两个字段<br><img src="https://img-blog.csdnimg.cn/20210402172002789.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzUxOTExNDMy,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>ppp协议在发送时将7E转化为7D5E 将7D 转化为7D5D<br>同步传输  ：当出现5个1 时会插0</p><h3 id="ppp不提供可靠传输"><a href="#ppp不提供可靠传输" class="headerlink" title="ppp不提供可靠传输"></a>ppp不提供可靠传输</h3><p>在数据链路层出现差错的概率不大时，使用比较简单的PPP协议较为合理。<br>在因特网环境下，PPP的信息字段放入的数据是IP数据报。数据链路层的可靠传输并不能够保证网络层的传输也是可靠的。<br>帧检验序列FCS字段可保证无差错接受。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> network </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> network </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>setoolkit做钓鱼网站</title>
       <link href="/2021/07/22/Linux%E5%AD%A6%E4%B9%A0/kali/setoolkit/"/>
       <url>/2021/07/22/Linux%E5%AD%A6%E4%B9%A0/kali/setoolkit/</url>
@@ -1140,31 +1190,18 @@
     
     
     <entry>
-      <title>计网初次学习</title>
-      <link href="/2021/03/23/%E8%AE%A1%E7%BD%91/%E8%AE%A1%E7%BD%91%E5%AE%9A%E4%B9%89/"/>
-      <url>/2021/03/23/%E8%AE%A1%E7%BD%91/%E8%AE%A1%E7%BD%91%E5%AE%9A%E4%B9%89/</url>
-      
-        <content type="html"><![CDATA[<h1 id="计网定义"><a href="#计网定义" class="headerlink" title="计网定义"></a>计网定义</h1><p>连通性和共享  </p><h2 id="计网分类"><a href="#计网分类" class="headerlink" title="计网分类"></a>计网分类</h2><h3 id="1-计网范围"><a href="#1-计网范围" class="headerlink" title="1.计网范围"></a>1.计网范围</h3><p>广域网WAN<br>城域网MAN<br>局域网LAN  </p><h3 id="2-使用者分类"><a href="#2-使用者分类" class="headerlink" title="2.使用者分类"></a>2.使用者分类</h3><p>公用网和专用网</p><h3 id="3-接入网"><a href="#3-接入网" class="headerlink" title="3.接入网"></a>3.接入网</h3><p>AN  </p><h2 id="计网性能"><a href="#计网性能" class="headerlink" title="计网性能"></a>计网性能</h2><p>1.速率 bit/s 实际值<br>2.带宽 bandwidth 频带宽度 最高速度<br>3.吞吐量 单位时间内通过的网络 吞吐量受带宽的限制<br>4.时延 delay<br>发送时延 传播时延 处理时延 排队时延<br>5.时延带宽积<br>6.往返时间 RTT<br>7.利用率  D=D0/1-U  </p><h2 id="计算机网络体系结构"><a href="#计算机网络体系结构" class="headerlink" title="计算机网络体系结构"></a>计算机网络体系结构</h2><p>协议<br>为网络中数据的交换而建立的规则</p><p><strong>各层级功能</strong>  </p><ol><li>差错控制    </li><li>流量控制    </li><li>分段和重装  </li><li>复用和分用</li><li>连接的建立与释放    </li></ol><p>五层协议体系结构</p><ul><li>应用层 application layer</li><li>运输层 transport layer</li><li>网络层 network layer</li><li>数据链路层 data link layer</li><li>物理层 physical layer</li></ul><p>协议是水平的 服务是垂直的</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> network </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>计网学习-应用层</title>
       <link href="/2021/03/23/%E8%AE%A1%E7%BD%91/%E5%BA%94%E7%94%A8%E5%B1%82/"/>
       <url>/2021/03/23/%E8%AE%A1%E7%BD%91/%E5%BA%94%E7%94%A8%E5%B1%82/</url>
       
         <content type="html"><![CDATA[<p>在Web应用程序中，有两个互相通信的不同的程序：一个是运行在用户主机上的浏览器程序；另一个是运行在Web服务器主机上的Web服务器程序</p>]]></content>
       
+      
+      <categories>
+          
+          <category> network </category>
+          
+      </categories>
       
       
         <tags>
@@ -1182,8 +1219,14 @@
       <link href="/2021/03/23/%E8%AE%A1%E7%BD%91/%E7%89%A9%E7%90%86%E5%B1%82/"/>
       <url>/2021/03/23/%E8%AE%A1%E7%BD%91/%E7%89%A9%E7%90%86%E5%B1%82/</url>
       
-        <content type="html"><![CDATA[<h1 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h1><p>机械特性：接口所用的形状和尺寸<br>电气特性：接口电缆各个显示出现的电压范围<br>功能特性：电压代表的含义<br>过程特性：出现事件的顺序   </p><h1 id="数据通信"><a href="#数据通信" class="headerlink" title="数据通信"></a>数据通信</h1><p>通信系统的三大部分：源系统(发送端)、传输系统(传输网络)，目的系统(接收端，接收方)。<br>数据（data）——运送信息的实体<br>信号（signal）——数据的电气的或电磁的表现<br>模拟信号(analogous signal)——代表消息的参数是连续的<br>数字信号(digital signal)——代表消息的参数的取值是类散的<br>信道<br>码元（code）-使用时间域的波形表示数字信号，代表不同的波形。<br>单向通信：只能有一个方向的同学而不能有反方向的交互。<br>双向交替通信<br>双向同时通信    </p><p>基带信号是(基本频带信号)最原始的1和0<br>基带信号中往往包含低频或直流部分，许多信道不能传输这种，因此必须对基带信号进行调制（modulation）</p><p>调制分为基带调制和带通调制<br>基带调制:仅对基带信号的波形进行变换,使它能够与信道特性相适应。变换后的信号仍然是基带信号。把这种过程称为编码(coding)。<br>带通调制:使用载波(carrier)进行调制，把基带信号的频率范围搬移到较高的频段，并转换为模拟信号，这样就能够更好地在模拟信道中传输（即仅在一段频率范围内能够通过信道)。<br><strong>带通信号</strong> :经过载波调制后的信号。  </p><h2 id="基带调制"><a href="#基带调制" class="headerlink" title="基带调制"></a>基带调制</h2><p>编码方式<br>比特流：<br>不归零制<br>归零制<br>曼切斯特<br>差分曼切斯特</p><h2 id="带通调制"><a href="#带通调制" class="headerlink" title="带通调制"></a>带通调制</h2><p>调幅AM 调频FM 调相PM   </p><h1 id="传输媒体"><a href="#传输媒体" class="headerlink" title="传输媒体"></a>传输媒体</h1><p>双绞线 CAT<br>同轴电缆（不太使用了）<br>光纤<br>多模光纤：可反射多个光<br>单模光纤：不太损耗能量   </p><h1 id="信号复用"><a href="#信号复用" class="headerlink" title="信号复用"></a>信号复用</h1><h1 id="数据传输"><a href="#数据传输" class="headerlink" title="*数据传输"></a>*数据传输</h1><h1 id="宽带接入技术"><a href="#宽带接入技术" class="headerlink" title="*宽带接入技术"></a>*宽带接入技术</h1>]]></content>
+        <content type="html"><![CDATA[<h1 id="计网定义"><a href="#计网定义" class="headerlink" title="计网定义"></a>计网定义</h1><p>连通性和共享  </p><h2 id="计网分类"><a href="#计网分类" class="headerlink" title="计网分类"></a>计网分类</h2><p>1.分组交换 ；2.电路交换（拨号上网）就是连着电话线，还有猫（调制解调器）一上网就打不了电话。（当然是有好处的，传输的时候不用等待）<br>所以找到了分组交换<br>分组交换又分为<br>1.虚电路，如ATM（模拟电话线路）；2.数据报，如因特网<br>因为互联网没有实时要求，面向连接浪费资源所以不用1<br>虽然分组和电路都用但是分组交换更有效<br><strong>那么如何传输数据报</strong><br>-———————————-<br>1.因特网肯定是基于物理电路的，<br>因此，我们需要一个，将数据转化为物理信号的层，<br>于是，<strong>物理层</strong>就出现了<br>-———————————-<br>2.有了处理物理信号的物理层，可我们还需要知道，信号发给谁<br>众所周知，每个主机都有一个，全球唯一的MAC地址<br>所以，我们可以用MAC地址来寻址<br>于是，<strong>链路层</strong>就出现了<br>-———————————-<br>3.MAC地址是扁平化的，换句话说MAC地址的空间分布，是无规律的！！！<br>如果有十万台主机，要通过MAC地址来寻址，不管你设计什么样的算法，数据量都太大了！！！<br>所以，我们需要IP地址，<br>于是，<strong>网络层</strong>就出现了<br>-———————————-<br>4.一台主机不能只和一台服务器通信啊，<br>我们有端口号，再基于不同需求：有人想要连得快，不介意数据丢失，有人必须要数据可靠，<br>于是产生了UDP和TCP<br>于是，<strong>运输层</strong>就出现了<br>-———————————-<br>5.不同应用，有不同的传输需求<br>比如，请求网页，发送邮件，P2P…<br>为了方便开发者，就对这些常用需求，进行了封装<br>于是，<strong>应用层</strong>就出现了<br>-———————————-<br>因为ip地址不够用，于是有了子网划分，手动分配太麻烦，于是有了DHCP，不好用，于是有了无分类编址（CIDR）<br>然后NAT出现了，于是专用网的IP不再占用公网IP</p><h4 id="有了ip地址为什么还要Mac地址？"><a href="#有了ip地址为什么还要Mac地址？" class="headerlink" title="有了ip地址为什么还要Mac地址？"></a>有了ip地址为什么还要Mac地址？</h4><p>1.IP地址本质上是终点地址，它在跳过路由器（hop）的时候不会改变，而MAC地址则是下一跳的地址，每跳过一次路由器都会改变。<br>这就是为什么还要用MAC地址的原因之一，它起到了记录下一跳的信息的作用<br>注：一般来说IP地址经过路由器是不变的，不过NAT（Network address translation）例外，这也是有些人反对NAT而支持IPV6的原因之一<br>2.MAC地址和IP地址两个地址，用于分别表示物理地址和逻辑地址是有好处的。这样分层可以使网络层与链路层的协议更灵活地替换，网络层不一定非要用『IP』协议，链路层也不一定非用『以太网』协议。<br>3.早期的以太网只有集线器（hub），没有交换机（switch），所以发出去的包能被以太网内的所有机器监听到，因此要附带上MAC地址，每个机器只需要接受与自己MAC地址相匹配的包。</p><h3 id="1-计网范围"><a href="#1-计网范围" class="headerlink" title="1.计网范围"></a>1.计网范围</h3><p>广域网WAN<br>城域网MAN<br>局域网LAN  </p><p>保密性质的广域网，通信要VPN</p><p>局域网内的通信：链路交换机！！！链路交换机是基于MAC寻址的，因为局域网没大到必须用IP寻址的地步<br>链路交换机采用了，跨越链路层和网络层边界的协议ARP.</p><p><strong>ARP协议</strong> ：根据IP地址获取物理地址的一个TCP/IP协议。主机发送信息时将包含目标IP地址的ARP请求广播到局域网络上的所有主机，并接收返回消息，以此确定目标的物理地址；收到返回消息后将该IP地址和物理地址存入本机ARP缓存中并保留一定时间，下次请求时直接查询ARP缓存以节约资源。地址解析协议是建立在网络中各个主机互相信任的基础上的，局域网络上的主机可以自主发送ARP应答消息，其他主机收到应答报文时不会检测该报文的真实性就会将其记入本机ARP缓存；由此攻击者就可以向某一主机发送伪ARP应答报文，使其发送的信息无法到达预期的主机或到达错误的主机，这就构成了一个<strong>ARP欺骗</strong>。这就可以搞事情</p><p>ARP要做一个IP到MAC的映射，<br>（1.为什么ARP要做IP到MAC的映射？因为在应用层和运输层里，目的地址都写得是IP,不把IP转化为MAC，第二层数据链路层怎么寻址）<br>（2.局域网为什么不用路由器，交换机功能少，接口多，比路由器划算）<br>（3.局域网和公网怎么通信呢?NAT。分组交换机（路由器），用自己的公网IP，帮局域网里的人们，给公网发信息然后把接受到的信息，再转发给，这就是NAT技术！<br>但可能说NAT不好，我们要拒绝NAT,使用IPv6那么就牵扯到了IPv4和IPv6间的通信（双栈||隧道）</p><h3 id="2-使用者分类"><a href="#2-使用者分类" class="headerlink" title="2.使用者分类"></a>2.使用者分类</h3><p>公用网和专用网</p><h3 id="3-接入网"><a href="#3-接入网" class="headerlink" title="3.接入网"></a>3.接入网</h3><p>AN<br>我们可以用线，把电脑接给猫，这就叫接入网</p><h2 id="计网性能"><a href="#计网性能" class="headerlink" title="计网性能"></a>计网性能</h2><p>1.速率 bit/s 实际值<br>2.带宽 bandwidth 频带宽度 最高速度<br>3.吞吐量 单位时间内通过的网络 吞吐量受带宽的限制<br>4.时延 delay<br>发送时延 传播时延 处理时延 排队时延<br>5.时延带宽积<br>6.往返时间 RTT<br>7.利用率  D=D0/1-U  </p><h2 id="计算机网络体系结构"><a href="#计算机网络体系结构" class="headerlink" title="计算机网络体系结构"></a>计算机网络体系结构</h2><p>协议<br>为网络中数据的交换而建立的规则</p><p><strong>各层级功能</strong>  </p><ol><li>差错控制    </li><li>流量控制    </li><li>分段和重装  </li><li>复用和分用</li><li>连接的建立与释放    </li></ol><p>五层协议体系结构</p><ul><li>应用层 application layer</li><li>运输层 transport layer</li><li>网络层 network layer</li><li>数据链路层 data link layer</li><li>物理层 physical layer</li></ul><p>协议是水平的 服务是垂直的</p><h1 id="物理层"><a href="#物理层" class="headerlink" title="物理层"></a>物理层</h1><h1 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h1><p>机械特性：接口所用的形状和尺寸<br>电气特性：接口电缆各个显示出现的电压范围<br>功能特性：电压代表的含义<br>过程特性：出现事件的顺序   </p><h1 id="数据通信"><a href="#数据通信" class="headerlink" title="数据通信"></a>数据通信</h1><p>通信系统的三大部分：源系统(发送端)、传输系统(传输网络)，目的系统(接收端，接收方)。<br><img src="https://img-blog.csdnimg.cn/20210326193801855.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzUxOTExNDMy,size_16,color_FFFFFF,t_7" alt="在这里插入图片描述"></p><p>数据（data）——运送信息的实体<br>信号（signal）——数据的电气的或电磁的表现<br>模拟信号(analogous signal)——代表消息的参数是连续的<br>数字信号(digital signal)——代表消息的参数的取值是类散的<br>信道<br>码元（code）-使用时间域的波形表示数字信号，代表不同的波形。<br>单向通信：只能有一个方向的同学而不能有反方向的交互。<br>双向交替通信：都可以通信但同时只能单向发送数据<br>双向同时通信 ：可以同时发送数据   </p><p>基带信号是(基本频带信号)最原始的1和0<br>基带信号中往往包含低频或直流部分，许多信道不能传输这种，因此必须对基带信号进行调制（modulation）</p><p>调制分为<strong>基带调制</strong>和<strong>带通调制</strong><br>基带调制:仅对基带信号的波形进行变换,使它能够与信道特性相适应。变换后的信号仍然是基带信号。把这种过程称为编码(coding)。<br>带通调制:使用载波(carrier)进行调制，把基带信号的频率范围搬移到较高的频段，并转换为模拟信号，这样就能够更好地在模拟信道中传输（即仅在一段频率范围内能够通过信道)。<br>带通信号:经过载波调制后的信号。 </p><h2 id="基带调制"><a href="#基带调制" class="headerlink" title="基带调制"></a>基带调制</h2><p>编码方式<br>比特流：<br>不归零制<br>归零制<br>曼切斯特<br>差分曼切斯特<br><img src="https://img-blog.csdnimg.cn/20210326194347650.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzUxOTExNDMy,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p><h2 id="带通调制"><a href="#带通调制" class="headerlink" title="带通调制"></a>带通调制</h2><p>调幅AM 调频FM 调相PM<br><img src="https://img-blog.csdnimg.cn/20210326194955856.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzUxOTExNDMy,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p><h2 id="信道的极限容量"><a href="#信道的极限容量" class="headerlink" title="信道的极限容量"></a>信道的极限容量</h2><p>失真数据<br>信道能通过的频率范围<br>信噪比<br>码元传输速率是有极限的，和频带有关<br>信噪比：信号的平均功率和噪音的平均功率之比<br>信噪比（dB）=10ln（S/N）(dB)<br>香农公式：信道的极限运输速率为C，C=Wlog<del>2</del>(1+S/N)<br>W表示信道带宽<br>S信号平均功率<br>N高斯噪声功率<br>C基本因为材料的受限基本无法提高，，但可以通过用编码的方式让码元携带更多的bit</p><h1 id="传输媒体"><a href="#传输媒体" class="headerlink" title="传输媒体"></a>传输媒体</h1><h2 id="导引型传输信号"><a href="#导引型传输信号" class="headerlink" title="导引型传输信号"></a>导引型传输信号</h2><p>双绞线 CAT（屏蔽双绞线，非屏蔽双绞线）<br>同轴电缆（不太使用了）基带同轴电缆：数字信号；宽带同轴电缆：模拟信号<br>光纤<br>多模光纤：可反射多个光<br>单模光纤 ：不太损耗能量（波分复用实现双向传递）</p><h2 id="非导引型传输媒体"><a href="#非导引型传输媒体" class="headerlink" title="非导引型传输媒体"></a>非导引型传输媒体</h2><p>无线传输所使用的频段很广。<br>短波通信（即高频通信）主要是靠电离层的反射，但短波信道的通信质量较差，传输速率低。<br>微波在空间主要是直线传播。<br>传统微波通信有两种方式：<br>地面微波通信<br>卫星通信</p><h1 id="信号复用"><a href="#信号复用" class="headerlink" title="信号复用"></a>信号复用</h1><h2 id="频分复用，波分复用，时分复用，"><a href="#频分复用，波分复用，时分复用，" class="headerlink" title="频分复用，波分复用，时分复用，"></a>频分复用，波分复用，时分复用，</h2><p>频分复用的所有用户在同样的时间占用不同的带宽资源（请注意,这里的“带宽”是频率带宽而不是数据的发送速率)<br>波分复用就是光的频分复用，使用一根光纤同时传输多个光在波信号<br>时分复用在不同时间上使用一样的频带，分给不同的用户，但可能会造成线路资源浪费。</p><h2 id="码分复用-CDM"><a href="#码分复用-CDM" class="headerlink" title="码分复用 CDM"></a>码分复用 CDM</h2><p>每一个用户挑选不同码型，被叫做码片序列<br>每一个比特时间划分为m个短的间隔，称为码(chip)。<br>每个站被指派一个唯一的m bit码片序列。如发送比特1，则发送自己的m bit码片序列。如发送比特0，则发送该码片序列的二进制反码。<br>用于计算时零变成-1,1变成+1<br><strong>CDMA（码分多址）的特点</strong><br>每个站分配的码片序列不仅必须各不相同，并且还必须互相正交(orthogonal)。<br>在实用的系统中是使用伪随机码序列。<br>令向量S表示站S的码片向量，令T表示其他任何站的码片向量。<br>两个不同站的码片序列正交，就是向量S和T的规格化内积(inner product)等于0:<br><img src="https://img-blog.csdnimg.cn/20210326205435594.png" alt="在这里插入图片描述"><br>所以自己与自己求内积求出的是1<br>码片向量与反码的向量的规格化内积为-1<br>下面题目<br><img src="https://img-blog.csdnimg.cn/20210326210707227.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzUxOTExNDMy,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>站点的码片与收到的码片相乘，得出的结果除以8（m）即可得出是否发了消息</p><h1 id="数据传输"><a href="#数据传输" class="headerlink" title="*数据传输"></a>*数据传输</h1><h1 id="宽带接入技术"><a href="#宽带接入技术" class="headerlink" title="*宽带接入技术"></a>*宽带接入技术</h1>]]></content>
       
+      
+      <categories>
+          
+          <category> network </category>
+          
+      </categories>
       
       
         <tags>
