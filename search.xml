@@ -4,11 +4,61 @@
   
     
     <entry>
+      <title>scapy使用</title>
+      <link href="/2021/07/26/Linux%E5%AD%A6%E4%B9%A0/kali/scapy%E4%BD%BF%E7%94%A8/"/>
+      <url>/2021/07/26/Linux%E5%AD%A6%E4%B9%A0/kali/scapy%E4%BD%BF%E7%94%A8/</url>
+      
+        <content type="html"><![CDATA[<h1 id="scapy"><a href="#scapy" class="headerlink" title="scapy"></a>scapy</h1><p>该工具可以改包</p><p>使用ARP().display()</p><p>###[ ARP ]###<br>  hwtype= 0x1<br>  ptype= IPv4<br>  hwlen= None<br>  plen= None<br>  op= who-has<br>  hwsrc= 00:0c:29:b5:d7:1e<br>  psrc= 192.168.3.24<br>  hwdst= 00:00:00:00:00:00<br>  pdst= 0.0.0.0</p><p><code>sr1(ARP(pdst=&quot;192.168.3.1&quot;))</code></p><p>IP()和ICMP()可以生成ping包</p><p><code>sr1(IP(dst=&quot;192.168.3.1&quot;,src=&quot;192.168.3.26&quot;)/ICMP(),timeout=1)</code></p><p>tcp包</p><p>###[ TCP ]###<br>  sport= ftp_data<br>  dport= http<br>  seq= 0<br>  ack= 0<br>  dataofs= None<br>  reserved= 0<br>  flags= S #表示SYN<br>  window= 8192<br>  chksum= None<br>  urgptr= 0<br>  options= []</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> kali </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> kali </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>网络层</title>
+      <link href="/2021/07/25/%E8%AE%A1%E7%BD%91/%E7%BD%91%E7%BB%9C%E5%B1%82/"/>
+      <url>/2021/07/25/%E8%AE%A1%E7%BD%91/%E7%BD%91%E7%BB%9C%E5%B1%82/</url>
+      
+        <content type="html"><![CDATA[<h1 id="网络层"><a href="#网络层" class="headerlink" title="网络层"></a>网络层</h1><p>遗留的问题</p><ol><li>可靠传输(不重复，不丢失，不失序)</li><li>不同网络建立连接</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> network </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> network </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>拓展互联网</title>
       <link href="/2021/07/23/%E8%AE%A1%E7%BD%91/%E6%8B%93%E5%B1%95%E4%BA%92%E8%81%94%E7%BD%91/"/>
       <url>/2021/07/23/%E8%AE%A1%E7%BD%91/%E6%8B%93%E5%B1%95%E4%BA%92%E8%81%94%E7%BD%91/</url>
       
-        <content type="html"><![CDATA[<h1 id="在物理层拓展以太网"><a href="#在物理层拓展以太网" class="headerlink" title="在物理层拓展以太网"></a>在物理层拓展以太网</h1><h2 id="使用光纤扩展"><a href="#使用光纤扩展" class="headerlink" title="使用光纤扩展"></a>使用光纤扩展</h2><p>主机使用光纤(通常是一对光纤)和一对光纤调制<br>解调器连接到集线器。<br>很容易使主机和几公里以外的集线器相连接。</p><h2 id="使用集线器扩展"><a href="#使用集线器扩展" class="headerlink" title="使用集线器扩展"></a>使用集线器扩展</h2><p>使用多个集线器可连成更大的、多级星形结构的以<br>太网。<br>例如,一个学院的三个系各有一个10 BASE-T以太<br>网,可通过一个主干集线器把各系的以太网连接起<br>来,成为一个更大的以太网。</p><p>级联</p><p>优点</p><ul><li><p>使原来属于不同碰撞域的以太网上的计算机能够进<br>行跨碰撞域的通信。</p></li><li><p>扩大了以太网覆盖的地理范围。</p></li></ul><p>缺点</p><ul><li>碰撞域增大了,但总的吞吐量并未提高。</li><li>如果不同的碰撞域使用不同的数据率,那么就不能<br>用集线器将它们互连起来。</li></ul><h2 id="在数据链路层拓展"><a href="#在数据链路层拓展" class="headerlink" title="在数据链路层拓展"></a>在数据链路层拓展</h2><p>扩展以太网更常用的方法是在数据链路层进行。<br>早期使用<strong>网桥</strong>,现在使用<strong>以太网交换机</strong>。</p><p>网桥工作在数据链路层。<br>它根据MAc帧的目的地址对收到的帧进行转发和过滤。<br>当网桥收到一个帧时,并不是向所有的接口转发此帧,而是<br>先检查此帧的目的MAC地址,然后再确定将该帧转发到哪<br>个接口,或把它丢弃。</p><p>1990年问世的交换式集线器( switching hub)可明显地提高以太网的性能。<br>交换式集线器常称为以太网交换机 (switch)或第二层交换机(L2 switch),强调这种交换机工作在数据链路层 </p><p>以太网交换机实质上就是一个多接口的网桥。通常都有十几个或更多的接口。<br>每个接口都直接与一个单台主机或另一个以太网交换机相连,并且一般都工作在全双工方式。<br>以太网交换机具有并行性。能同时连通多对接口,使多对主机能同时通信。<br>相互通信的主机都是独占传输媒体,无碰撞地传输数据。</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="在物理层拓展以太网"><a href="#在物理层拓展以太网" class="headerlink" title="在物理层拓展以太网"></a>在物理层拓展以太网</h1><h2 id="使用光纤扩展"><a href="#使用光纤扩展" class="headerlink" title="使用光纤扩展"></a>使用光纤扩展</h2><p>主机使用光纤(通常是一对光纤)和一对光纤调制<br>解调器连接到集线器。<br>很容易使主机和几公里以外的集线器相连接。</p><h2 id="使用集线器扩展"><a href="#使用集线器扩展" class="headerlink" title="使用集线器扩展"></a>使用集线器扩展</h2><p>使用多个集线器可连成更大的、多级星形结构的以<br>太网。<br>例如,一个学院的三个系各有一个10 BASE-T以太<br>网,可通过一个主干集线器把各系的以太网连接起<br>来,成为一个更大的以太网。</p><p>级联</p><p>优点</p><ul><li><p>使原来属于不同碰撞域的以太网上的计算机能够进<br>行跨碰撞域的通信。</p></li><li><p>扩大了以太网覆盖的地理范围。</p></li></ul><p>缺点</p><ul><li>碰撞域增大了,但总的吞吐量并未提高。</li><li>如果不同的碰撞域使用不同的数据率,那么就不能<br>用集线器将它们互连起来。</li></ul><h2 id="在数据链路层拓展"><a href="#在数据链路层拓展" class="headerlink" title="在数据链路层拓展"></a>在数据链路层拓展</h2><p>扩展以太网更常用的方法是在数据链路层进行。<br>早期使用<strong>网桥</strong>,现在使用<strong>以太网交换机</strong>。</p><p>网桥工作在数据链路层。<br>它根据MAc帧的目的地址对收到的帧进行转发和过滤。<br>当网桥收到一个帧时,并不是向所有的接口转发此帧,而是<br>先检查此帧的目的MAC地址,然后再确定将该帧转发到哪<br>个接口,或把它丢弃。</p><p>1990年问世的交换式集线器( switching hub)可明显地提高以太网的性能。<br>交换式集线器常称为以太网交换机 (switch)或第二层交换机(L2 switch),强调这种交换机工作在数据链路层 </p><p>以太网交换机实质上就是一个多接口的网桥。通常都有十几个或更多的接口。<br>每个接口都直接与一个单台主机或另一个以太网交换机相连,并且一般都工作在全<strong>双工</strong>方式。<br>以太网交换机具有并行性。能同时连通多对接口,使多对主机能同时通信。<br><strong>相互通信的主机都是独占传输媒体,无碰撞地传输数据。</strong></p><p>以太网交换机的接口有<strong>存储器</strong>,能在输出端口繁忙时把到来的帧进行缓存。<br>以太网交换机是一种即插即用设备,其内部的帧交换表(又称为地址表)是通过自学习算法自动地逐渐建立起来的。<br>以太网交换机使用了专用的交换结构芯片,用硬件转发,其转发速率要比使用软件转发的网桥快很多。</p><p><code>以太网交换机的优点</code></p><p>对于普通10 Mbit/s的共享式以太网,若共有N个用户,则每个用户占有的平均带宽只有总带宽(10Mbs的N分之一。<br>使用以太网交换机时,虽然在每个接口到主机的带宽还是10Mbit/s,但由于一个用户在通信时是独占而不是和其他网络用户共享传输媒体的带宽，因此对于拥有N个接口的交换机的总容量为N×10Mbts。<br>从共享总线以太网转到交换式以太网时,所有接入设备的软件和硬件、适配器等都不需要做任何改动，以太网交换机一般都具有多种速率的接口,方便了各种不同情况的用户。</p><hr><h1 id="以太网的交换方式"><a href="#以太网的交换方式" class="headerlink" title="以太网的交换方式"></a>以太网的交换方式</h1><p><strong>存储转发方式</strong></p><p>把整个数据帧先缓存后再进行处理</p><p><strong>直通方式</strong></p><p>接收数据帧的同时就立即按数据帧的目的MAC地址决定该帧的转发接口,因而提高了帧的转发速度。<br>缺点是它不检查差错就直接将帧转发出去,因此有可能也将一些无效帧转发给其他的站。</p><h2 id="以太网交换机的自学习功能"><a href="#以太网交换机的自学习功能" class="headerlink" title="以太网交换机的自学习功能"></a>以太网交换机的自学习功能</h2><p>以太网交换机运行自学习算法自动维护<strong>交换表</strong>。</p><p>开始时,以太网交换机里面的交换表是空的。</p><h2 id="交换机-生成树协议STP"><a href="#交换机-生成树协议STP" class="headerlink" title="交换机 生成树协议STP"></a>交换机 生成树协议STP</h2><p>网络风暴</p><p>IEEE802.1D指定了生成树协议STP 从逻辑上切断某些链路，使得一台主机到所有其他路径是无环路的树状结构</p><h2 id="虚拟局域网"><a href="#虚拟局域网" class="headerlink" title="虚拟局域网"></a>虚拟局域网</h2><p>利用以太网交换机可以很方便实现虚拟局域网VLAN Virtual LAN</p><p>数据链路层划分VLAN</p><p>虚拟局域网限制了接收广播信息的工作站数，使得网络不会因传播过多的广播信息(广播风暴)而引起性能恶化</p>]]></content>
       
       
       <categories>
