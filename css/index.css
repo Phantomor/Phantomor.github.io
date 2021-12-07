@@ -3319,7 +3319,7 @@ li.categoryBar-list-item:nth-child(1) {
   background: url('https://raw.githubusercontent.com/Phantomor/images/main/img/moon.png');
 }
 li.categoryBar-list-item:nth-child(2) {
-  background: url('https://cdn.jsdelivr.net/npm/akilar-candyassets/image/cover5.webp');
+  background: url('https://cdn.jsdelivr.net/npm/akilar-candyassets/image/cover2.webp');
 }
 li.categoryBar-list-item:nth-child(3) {
   background: url('https://cdn.jsdelivr.net/npm/akilar-candyassets/image/cover6.webp');
@@ -3383,7 +3383,7 @@ li.categoryBar-list-item {
   }
 }
 .categoryBar-list {
-  max-height: 190px;
+  max-height: 570px;
   overflow: auto;
 }
 .categoryBar-list::-webkit-scrollbar {
@@ -3391,7 +3391,7 @@ li.categoryBar-list-item {
 }
 @media screen and (max-width: 650px) {
   .categoryBar-list {
-    max-height: 160px;
+    max-height: 480px;
   }
 }
 #post-comment .comment-head {
