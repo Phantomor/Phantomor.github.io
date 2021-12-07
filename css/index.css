@@ -3332,49 +3332,46 @@ li.categoryBar-list-item:nth-child(4) {
   background: linear-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(200,16 , 16, 0) 100%);
 }
 li.categoryBar-list-item:nth-child(5) {
-  background: url('https://raw.githubusercontent.com/Phantomor/images/main/img/cover/jin.jpg');
-}
-li.categoryBar-list-item:nth-child(6) {
-  background: url('https://raw.githubusercontent.com/Phantomor/images/main/img/jing.jpg');
-}
-li.categoryBar-list-item:nth-child(7) {
-  background: url('https://raw.githubusercontent.com/Phantomor/images/main/img/cover/jiu.jpg');
-}
-li.categoryBar-list-item:nth-child(8) {
-  background: url('https://raw.githubusercontent.com/Phantomor/images/main/img/cover/miku_1.jpg');
-}
-li.categoryBar-list-item:nth-child(9) {
-  background: url('https://raw.githubusercontent.com/Phantomor/images/main/img/cover/miku_2.jpg');
-}
-li.categoryBar-list-item:nth-child(10) {
-  background: url('https://raw.githubusercontent.com/Phantomor/images/main/img/cover/miku_7.jpg');
-}
-li.categoryBar-list-item:nth-child(11) {
   background: url('https://raw.githubusercontent.com/Phantomor/images/main/img/cover/miku_8.jpg');
 }
-li.categoryBar-list-item:nth-child(12) {
+li.categoryBar-list-item:nth-child(6) {
   background: url('https://raw.githubusercontent.com/Phantomor/images/main/img/cover/miku_9.jpg');
 }
-li.categoryBar-list-item:nth-child(13) {
+li.categoryBar-list-item:nth-child(7) {
   background: url('https://raw.githubusercontent.com/Phantomor/images/main/img/cover/miku_11.jpg');
 }
+li.categoryBar-list-item:nth-child(8) {
+  background: url('https://raw.githubusercontent.com/Phantomor/images/main/img/cover/jin.jpg');
+}
+li.categoryBar-list-item:nth-child(9) {
+  background: url('https://raw.githubusercontent.com/Phantomor/images/main/img/jing.jpg');
+}
+li.categoryBar-list-item:nth-child(10) {
+  background: url('https://raw.githubusercontent.com/Phantomor/images/main/img/cover/jiu.jpg');
+}
+li.categoryBar-list-item:nth-child(11) {
+  background: url('https://raw.githubusercontent.com/Phantomor/images/main/img/cover/miku_1.jpg');
+}
+li.categoryBar-list-item:nth-child(12) {
+  background: url('https://raw.githubusercontent.com/Phantomor/images/main/img/cover/miku_2.jpg');
+}
 li.categoryBar-list-item:nth-child(1)>span::after {
-  content: 'Crypto Secret' !important;
+  content: 'Crypto_Secret' !important;
 }
 li.categoryBar-list-item:nth-child(2)>span::after {
   content: 'Surf' !important;
 }
 li.categoryBar-list-item:nth-child(3)>span::after {
-  content: 'Why can't PWN' !important;
+  content: 'PANG' !important;
 }
 li.categoryBar-list-item:nth-child(4)>span::after {
   content: 'Reverse' !important;
 }
 li.categoryBar-list-item:nth-child(5)>span::after {
-  content: 'CTF's diary' !important;
+  content: 'CTF_de_diary' !important;
 }
 li.categoryBar-list-item:nth-child(6)>span::after {
-  content: 'kali tools' !important;
+  content: 'kali_tools' !important;
 }
 li.categoryBar-list-item:nth-child(7)>span::after {
   content: 'Wwweb' !important;
