@@ -3316,10 +3316,10 @@ span.categoryBar-list-count::after {
   right: -100%;
 }
 li.categoryBar-list-item:nth-child(1) {
-  background: url('https://cdn.jsdelivr.net/npm/akilar-candyassets/image/cover1.webp');
+  background: url('https://raw.githubusercontent.com/Phantomor/images/main/img/moon.png');
 }
 li.categoryBar-list-item:nth-child(2) {
-  background: #abcdef;
+  background: #49abed;
 }
 li.categoryBar-list-item:nth-child(3) {
   background: rgba(45,67,89,0.7);
@@ -3332,24 +3332,18 @@ li.categoryBar-list-item:nth-child(4) {
   background: linear-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(200,16 , 16, 0) 100%);
 }
 li.categoryBar-list-item:nth-child(5) {
-  background: url('https://cdn.jsdelivr.net/npm/akilar-candyassets/image/cover5.webp');
-}
-li.categoryBar-list-item:nth-child(6) {
-  background: url('https://cdn.jsdelivr.net/npm/akilar-candyassets/image/cover6.webp');
-}
-li.categoryBar-list-item:nth-child(7) {
   background: url('https://raw.githubusercontent.com/Phantomor/images/main/img/moon.png');
 }
-li.categoryBar-list-item:nth-child(8) {
+li.categoryBar-list-item:nth-child(6) {
   background: url('https://raw.githubusercontent.com/Phantomor/images/main/img/cover/jin.jpg');
 }
-li.categoryBar-list-item:nth-child(9) {
+li.categoryBar-list-item:nth-child(7) {
   background: url('https://raw.githubusercontent.com/Phantomor/images/main/img/cover/miku_7.jpg');
 }
-li.categoryBar-list-item:nth-child(10) {
+li.categoryBar-list-item:nth-child(8) {
   background: url('https://raw.githubusercontent.com/Phantomor/images/main/img/cover/miku_1.jpg');
 }
-li.categoryBar-list-item:nth-child(11) {
+li.categoryBar-list-item:nth-child(9) {
   background: url('https://raw.githubusercontent.com/Phantomor/images/main/img/jing.jpg');
 }
 li.categoryBar-list-item:nth-child(1)>span::after {
@@ -3381,7 +3375,7 @@ li.categoryBar-list-item {
   }
 }
 .categoryBar-list {
-  max-height: 380px;
+  max-height: 570px;
   overflow: auto;
 }
 .categoryBar-list::-webkit-scrollbar {
@@ -3389,7 +3383,7 @@ li.categoryBar-list-item {
 }
 @media screen and (max-width: 650px) {
   .categoryBar-list {
-    max-height: 320px;
+    max-height: 480px;
   }
 }
 #post-comment .comment-head {
