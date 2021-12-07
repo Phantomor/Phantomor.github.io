@@ -3332,37 +3332,55 @@ li.categoryBar-list-item:nth-child(4) {
   background: linear-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(200,16 , 16, 0) 100%);
 }
 li.categoryBar-list-item:nth-child(5) {
-  background: url('https://raw.githubusercontent.com/Phantomor/images/main/img/moon.png');
-}
-li.categoryBar-list-item:nth-child(6) {
   background: url('https://raw.githubusercontent.com/Phantomor/images/main/img/cover/jin.jpg');
 }
+li.categoryBar-list-item:nth-child(6) {
+  background: url('https://raw.githubusercontent.com/Phantomor/images/main/img/jing.jpg');
+}
 li.categoryBar-list-item:nth-child(7) {
-  background: url('https://raw.githubusercontent.com/Phantomor/images/main/img/cover/miku_7.jpg');
+  background: url('https://raw.githubusercontent.com/Phantomor/images/main/img/cover/jiu.jpg');
 }
 li.categoryBar-list-item:nth-child(8) {
   background: url('https://raw.githubusercontent.com/Phantomor/images/main/img/cover/miku_1.jpg');
 }
 li.categoryBar-list-item:nth-child(9) {
-  background: url('https://raw.githubusercontent.com/Phantomor/images/main/img/jing.jpg');
+  background: url('https://raw.githubusercontent.com/Phantomor/images/main/img/cover/miku_2.jpg');
+}
+li.categoryBar-list-item:nth-child(10) {
+  background: url('https://raw.githubusercontent.com/Phantomor/images/main/img/cover/miku_7.jpg');
+}
+li.categoryBar-list-item:nth-child(11) {
+  background: url('https://raw.githubusercontent.com/Phantomor/images/main/img/cover/miku_8.jpg');
+}
+li.categoryBar-list-item:nth-child(12) {
+  background: url('https://raw.githubusercontent.com/Phantomor/images/main/img/cover/miku_9.jpg');
+}
+li.categoryBar-list-item:nth-child(13) {
+  background: url('https://raw.githubusercontent.com/Phantomor/images/main/img/cover/miku_11.jpg');
 }
 li.categoryBar-list-item:nth-child(1)>span::after {
-  content: 'Good things to share' !important;
+  content: 'Crypto Secret' !important;
 }
 li.categoryBar-list-item:nth-child(2)>span::after {
-  content: 'Back end talk' !important;
+  content: 'Surf' !important;
 }
 li.categoryBar-list-item:nth-child(3)>span::after {
-  content: 'personal diary' !important;
+  content: 'Why can't PWN' !important;
 }
 li.categoryBar-list-item:nth-child(4)>span::after {
-  content: 'Front end serialization' !important;
+  content: 'Reverse' !important;
 }
 li.categoryBar-list-item:nth-child(5)>span::after {
-  content: 'Butterfly theme' !important;
+  content: 'CTF's diary' !important;
 }
 li.categoryBar-list-item:nth-child(6)>span::after {
-  content: 'Other items' !important;
+  content: 'kali tools' !important;
+}
+li.categoryBar-list-item:nth-child(7)>span::after {
+  content: 'Wwweb' !important;
+}
+li.categoryBar-list-item:nth-child(8)>span::after {
+  content: 'Breakdown' !important;
 }
 li.categoryBar-list-item {
   width: 32.3% !important;
@@ -3375,7 +3393,7 @@ li.categoryBar-list-item {
   }
 }
 .categoryBar-list {
-  max-height: 570px;
+  max-height: 760px;
   overflow: auto;
 }
 .categoryBar-list::-webkit-scrollbar {
@@ -3383,7 +3401,7 @@ li.categoryBar-list-item {
 }
 @media screen and (max-width: 650px) {
   .categoryBar-list {
-    max-height: 480px;
+    max-height: 640px;
   }
 }
 #post-comment .comment-head {
