@@ -8,7 +8,7 @@
       <link href="/2021/12/07/diary/%E6%97%A5%E8%AE%B0/"/>
       <url>/2021/12/07/diary/%E6%97%A5%E8%AE%B0/</url>
       
-        <content type="html"><![CDATA[<h1 id="diary"><a href="#diary" class="headerlink" title="diary"></a>diary</h1><h2 id="2021-12-7"><a href="#2021-12-7" class="headerlink" title="2021-12-7"></a>2021-12-7</h2>]]></content>
+        <content type="html"><![CDATA[<h1 id="diary"><a href="#diary" class="headerlink" title="diary"></a>diary</h1><h2 id="2021-12-7"><a href="#2021-12-7" class="headerlink" title="2021-12-7"></a>2021-12-7</h2><p>整理一下博客，每天一题CTF。快考试了，争取不挂科555。还有四级。</p>]]></content>
       
       
       
@@ -138,16 +138,16 @@
       
       <categories>
           
-          <category> re </category>
+          <category> Re </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> re </tag>
+            <tag> Re </tag>
             
-            <tag> obfuscation </tag>
+            <tag> Obfuscation </tag>
             
         </tags>
       
@@ -190,12 +190,6 @@
         <content type="html"><![CDATA[<h1 id="Windows内核"><a href="#Windows内核" class="headerlink" title="Windows内核"></a>Windows内核</h1><h2 id="常见的函数后缀"><a href="#常见的函数后缀" class="headerlink" title="常见的函数后缀"></a>常见的函数后缀</h2><p>eg：MessageBox</p><p>A ASCII</p><p>W UNICODE</p><p>Ex 改进</p><p>32位调用的是stdcall，64位调用的是fastcall存在eax中</p><h2 id="0环的helloworld"><a href="#0环的helloworld" class="headerlink" title="0环的helloworld"></a>0环的helloworld</h2><p>NT驱动</p><p>WDM</p><p>WDF </p><p>UWDF</p>]]></content>
       
       
-      <categories>
-          
-          <category> System </category>
-          
-      </categories>
-      
       
         <tags>
             
@@ -217,14 +211,14 @@
       
       <categories>
           
-          <category> re </category>
+          <category> Re </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> re </tag>
+            <tag> Re </tag>
             
             <tag> tools </tag>
             
@@ -318,12 +312,6 @@
       
         <content type="html"><![CDATA[<h1 id="程序的机器级表示"><a href="#程序的机器级表示" class="headerlink" title="程序的机器级表示"></a>程序的机器级表示</h1><p>GCCC 语言编译器以汇编代码的形式产生输出，汇编代码是机器代码的文本表示，给出程序中的每一条指令。然后GCC 调用汇编器和链接器，根据汇编代码生成可执行的机器代码。</p><p><code>我们为什么要学习汇编语言？</code></p><ul><li>阅读汇编有助于我们理解编译器的优化能力,分析代码中隐含的低效率</li><li>不同线程是如何保持数据私有或共享数据</li><li>程序被攻击的许多方式涉及程序存储运行时的控制信息的方式的细节,许多攻击利用了系统程序中的漏洞重写信息,获取系统的控制权</li></ul><p>我们需要了解编译器在将<code>c语言转化为机器代码</code>时转化,优化编译器能重新排列执行顺序,,消除不必要的计算,用快速操作替代慢速操作.这是一种<code>逆向工程(Reverse Engineering)</code></p><p>基于x86-64，关注GCC和Linux使用的特性</p><p>程序计数器：PC、x86-64用%rip表示，给出将要执行的下一条指令在内存中的指令</p>]]></content>
       
-      
-      <categories>
-          
-          <category> ReadNotes </category>
-          
-      </categories>
       
       
         <tags>
