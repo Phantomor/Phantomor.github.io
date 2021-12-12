@@ -1300,7 +1300,7 @@ canvas:not(#ribbon-canvas),
   }
 }
 :root {
-  --global-font-size: 14px;
+  --global-font-size: 16px;
   --global-bg: #fff;
   --font-color: #4c4948;
   --hr-border: #a4d8fa;
@@ -6201,5 +6201,18 @@ blockquote.pullquote.right {
 .layout > div:first-child:not(.recent-posts) {
   /* 以下代表白色透明度为0.3 */
   background: rgba(255, 255, 255, 0.85);
+}
+
+@font-face {
+  font-family: "tzy";
+  /* 字体名自定义即可 */
+  src: url("https://cdn.jsdelivr.net/gh/tzy13755126023/BLOG_SOURCE/font/ZhuZiAWan.woff2");
+  /* 字体文件路径 */
+  font-display: swap;
+}
+
+body,
+.gitcalendar {
+  font-family: tzy !important;
 }
 
