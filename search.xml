@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>arm汇编入门</title>
+      <link href="//lang/arm-assembly.html"/>
+      <url>//lang/arm-assembly.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="arm汇编入门"><a href="#arm汇编入门" class="headerlink" title="arm汇编入门"></a>arm汇编入门</h1><p>ARM中包含了大量的汇编指令，</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Re </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Re </tag>
+            
+            <tag> Language </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>MIPS逆向</title>
       <link href="//67f9.html"/>
       <url>//67f9.html</url>
